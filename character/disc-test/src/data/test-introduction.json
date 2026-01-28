@@ -1,0 +1,194 @@
+{
+  "welcome": {
+    "title": "DISC 行为风格测试",
+    "subtitle": "了解您的行为风格，提升自我认知与人际沟通",
+    "tagline": "基于William Moulton Marston博士的DISC行为理论"
+  },
+  "overview": {
+    "title": "测试概览",
+    "description": "DISC行为风格测试基于心理学家William Moulton Marston于1928年在其著作《正常人的情绪》中提出的理论模型。该模型将人的行为风格分为四种基本类型：支配型(D)、影响型(I)、稳健型(S)和谨慎型(C)。每个人都是这四种风格的独特组合，了解自己的DISC风格有助于改善沟通、提升团队合作和自我管理。",
+    "features": [
+      "基于经典DISC行为理论，全球广泛应用",
+      "28道精选题目，精准评估四大行为维度",
+      "提供详细的行为风格分析和发展建议",
+      "包含职业方向推荐和团队协作建议",
+      "帮助您理解自己在不同情境下的行为倾向",
+      "测试结果可下载保存，方便日后回顾"
+    ]
+  },
+  "discModel": {
+    "title": "DISC四维行为模型",
+    "description": "DISC模型基于两个维度：外向/内向（节奏快慢）和任务导向/人际导向。这两个维度的交叉产生了四种基本行为风格，每种风格都有其独特的优势和发展空间。",
+    "types": [
+      {
+        "id": "D",
+        "name": "支配型 (D)",
+        "icon": "🦁",
+        "brief": "果断自信，以结果为导向，喜欢掌控全局，善于解决问题和应对挑战",
+        "example": "企业高管、创业者、项目经理"
+      },
+      {
+        "id": "I",
+        "name": "影响型 (I)",
+        "icon": "🌟",
+        "brief": "热情开朗，善于社交和沟通，具有感染力，喜欢激励和影响他人",
+        "example": "销售经理、市场营销、培训师"
+      },
+      {
+        "id": "S",
+        "name": "稳健型 (S)",
+        "icon": "🌿",
+        "brief": "耐心可靠，注重和谐，善于倾听和支持他人，喜欢稳定的环境",
+        "example": "人力资源、社工、客户服务"
+      },
+      {
+        "id": "C",
+        "name": "谨慎型 (C)",
+        "icon": "🔬",
+        "brief": "注重细节，追求精确，逻辑严谨，喜欢按照高标准行事",
+        "example": "数据分析师、会计师、质量工程师"
+      }
+    ]
+  },
+  "discQuadrant": {
+    "title": "DISC四象限模型",
+    "description": "DISC模型可以用一个二维四象限来理解。水平轴表示关注点（任务vs人际），垂直轴表示行为节奏（主动vs被动）。了解四象限有助于理解不同风格之间的差异和互补。",
+    "axes": {
+      "horizontal": { "left": "任务导向", "right": "人际导向" },
+      "vertical": { "top": "主动/外向", "bottom": "被动/内向" }
+    },
+    "quadrants": [
+      { "position": "左上", "type": "D - 支配型", "keywords": "果断、掌控、结果" },
+      { "position": "右上", "type": "I - 影响型", "keywords": "热情、社交、感染" },
+      { "position": "右下", "type": "S - 稳健型", "keywords": "耐心、和谐、支持" },
+      { "position": "左下", "type": "C - 谨慎型", "keywords": "精确、分析、标准" }
+    ]
+  },
+  "howToTake": {
+    "title": "如何答题",
+    "instructions": [
+      {
+        "step": 1,
+        "title": "真实回答",
+        "description": "请根据您在日常生活和工作中的真实行为倾向来回答，而不是您认为'应该'怎样。",
+        "tip": "想象一个具体的日常场景，然后评估自己的自然反应。"
+      },
+      {
+        "step": 2,
+        "title": "第一反应",
+        "description": "请选择您的第一反应，不需要过多思考。每道题没有对错之分。",
+        "tip": "过度思考可能导致结果偏差，请相信您的直觉。"
+      },
+      {
+        "step": 3,
+        "title": "全面评估",
+        "description": "本测试共28道题目，请尽量完成所有题目以获得准确的评估结果。",
+        "tip": "整个测试约需5-8分钟，请在安静的环境中完成。"
+      }
+    ],
+    "likertScale": {
+      "title": "评分标准 (Likert 5点量表)",
+      "description": "对于每道题目，请根据以下标准选择最符合您行为倾向的选项：",
+      "options": [
+        { "value": 1, "label": "非常不符合", "when": "这个描述完全不像我" },
+        { "value": 2, "label": "比较不符合", "when": "这个描述大部分不像我" },
+        { "value": 3, "label": "一般", "when": "这个描述有时像我有时不像" },
+        { "value": 4, "label": "比较符合", "when": "这个描述大部分像我" },
+        { "value": 5, "label": "非常符合", "when": "这个描述完全就是我" }
+      ]
+    }
+  },
+  "whatToExpect": {
+    "title": "测试结果预览",
+    "sections": [
+      {
+        "icon": "📊",
+        "title": "DISC风格分布",
+        "description": "四维度得分图表，展示您在D、I、S、C四个维度上的得分分布"
+      },
+      {
+        "icon": "🏷️",
+        "title": "主导风格分析",
+        "description": "识别您的主导风格和次要风格，提供详细的行为特征描述"
+      },
+      {
+        "icon": "💼",
+        "title": "职业发展建议",
+        "description": "基于您的DISC风格组合，提供适合的职业方向和发展建议"
+      },
+      {
+        "icon": "🤝",
+        "title": "团队沟通指南",
+        "description": "了解如何与不同DISC风格的人有效沟通和合作"
+      }
+    ],
+    "timeEstimate": {
+      "description": "预计完成时间",
+      "min": 5,
+      "max": 8
+    }
+  },
+  "privacy": {
+    "title": "隐私保护",
+    "assurances": [
+      "所有数据仅存储在您的浏览器本地",
+      "不会上传任何信息到服务器",
+      "您可以随时清除浏览器数据来删除结果",
+      "测试结果仅供您个人参考使用"
+    ],
+    "note": "本工具完全在浏览器端运行，不收集任何个人信息。"
+  },
+  "disclaimer": {
+    "title": "重要声明",
+    "points": [
+      {
+        "type": "info",
+        "content": "本测试基于William Moulton Marston的DISC行为理论，题目来源于公开的心理测量资源。"
+      },
+      {
+        "type": "info",
+        "content": "DISC评估广泛应用于企业培训、团队建设和个人发展领域。"
+      },
+      {
+        "type": "warning",
+        "content": "本测试为非官方DISC评估工具，仅供个人学习和自我了解使用，不能替代专业的心理评估。"
+      },
+      {
+        "type": "info",
+        "content": "行为风格没有好坏之分，每种风格都有其独特的价值和适用场景。"
+      }
+    ]
+  },
+  "readyToStart": {
+    "title": "准备好了吗？",
+    "checklist": [
+      "已安排约5-8分钟不受打扰的时间",
+      "已准备好以真实的自我来回答问题",
+      "已理解评分标准（1-5分）",
+      "了解结果将帮助您提升自我认知和人际沟通"
+    ],
+    "encouragement": "每个人都是四种行为风格的独特组合。了解自己的DISC风格，是提升自我认知、改善人际关系的第一步！",
+    "buttonText": "开始DISC行为风格测试"
+  },
+  "scientificBasis": {
+    "title": "科学背景",
+    "development": "DISC理论由美国心理学家William Moulton Marston于1928年在其著作《Emotions of Normal People》中首次提出。Marston认为人的行为可以沿着两个维度进行分类：对环境的感知（友好vs敌意）和对环境的回应（主动vs被动），由此产生四种基本行为模式。",
+    "validation": "DISC模型经过近百年的发展和验证，已成为全球最广泛使用的行为评估工具之一。每年有超过百万人参加DISC评估，应用于个人发展、团队建设、领导力培养等领域。",
+    "applications": [
+      "个人自我认知和发展规划",
+      "团队建设和沟通改善",
+      "领导力和管理风格提升",
+      "销售和客户关系管理",
+      "招聘和人才发展"
+    ],
+    "references": [
+      "Marston, W. M. (1928). Emotions of Normal People. Kegan Paul, Trench, Trubner & Co.",
+      "Sugerman, J. (2009). Using the DiSC model to improve communication effectiveness. Industrial and Commercial Training.",
+      "OpenPsychometrics. Open DISC Assessment Tool (ODAT). https://openpsychometrics.org/"
+    ],
+    "source": {
+      "name": "OpenPsychometrics - Open DISC Assessment Tool",
+      "url": "https://openpsychometrics.org/tests/ODAT/"
+    }
+  }
+}

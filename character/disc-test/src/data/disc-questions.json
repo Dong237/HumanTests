@@ -1,0 +1,32 @@
+{
+  "questions": [
+    { "number": 1, "text": "我喜欢在竞争中获胜，并为此全力以赴", "dimensionId": "D" },
+    { "number": 2, "text": "我喜欢在社交场合结识新朋友", "dimensionId": "I" },
+    { "number": 3, "text": "我更喜欢稳定可预测的工作和生活环境", "dimensionId": "S" },
+    { "number": 4, "text": "我在做决定前会仔细分析所有可用的数据和信息", "dimensionId": "C" },
+    { "number": 5, "text": "我倾向于快速做出决定，而不是犹豫不决", "dimensionId": "D" },
+    { "number": 6, "text": "我善于用热情和积极的态度感染周围的人", "dimensionId": "I" },
+    { "number": 7, "text": "我擅长耐心倾听他人的想法和感受", "dimensionId": "S" },
+    { "number": 8, "text": "我追求工作中的高标准和精确度", "dimensionId": "C" },
+    { "number": 9, "text": "面对困难和挑战时，我会迎难而上而不是退缩", "dimensionId": "D" },
+    { "number": 10, "text": "我在团队讨论中经常主动发言并分享自己的观点", "dimensionId": "I" },
+    { "number": 11, "text": "我是一个值得信赖的人，别人可以依靠我", "dimensionId": "S" },
+    { "number": 12, "text": "我喜欢按照既定的规则和流程来完成工作", "dimensionId": "C" },
+    { "number": 13, "text": "我喜欢掌控局面，主导事情的进展方向", "dimensionId": "D" },
+    { "number": 14, "text": "我能够轻松地说服他人接受我的想法", "dimensionId": "I" },
+    { "number": 15, "text": "我重视团队的和谐，愿意为维护团队关系做出妥协", "dimensionId": "S" },
+    { "number": 16, "text": "我注重细节，在工作中力求做到零失误", "dimensionId": "C" },
+    { "number": 17, "text": "我敢于冒险尝试新事物，即使结果不确定", "dimensionId": "D" },
+    { "number": 18, "text": "我喜欢参加聚会和社交活动，这让我充满活力", "dimensionId": "I" },
+    { "number": 19, "text": "我对他人的需求很敏感，乐于提供支持和帮助", "dimensionId": "S" },
+    { "number": 20, "text": "我做事有条理，习惯制定详细的计划再行动", "dimensionId": "C" },
+    { "number": 21, "text": "我更关注最终结果而不是过程中的细节", "dimensionId": "D" },
+    { "number": 22, "text": "我善于营造轻松愉快的氛围，让大家放松下来", "dimensionId": "I" },
+    { "number": 23, "text": "我忠诚于自己的团队和承诺，不会轻易改变", "dimensionId": "S" },
+    { "number": 24, "text": "我在做重要决策时会反复检查和验证信息的准确性", "dimensionId": "C" },
+    { "number": 25, "text": "我说话直接坦率，不喜欢拐弯抹角", "dimensionId": "D" },
+    { "number": 26, "text": "我对新认识的人通常持开放和信任的态度", "dimensionId": "I" },
+    { "number": 27, "text": "我喜欢按照固定的节奏做事，不喜欢突然的变化", "dimensionId": "S" },
+    { "number": 28, "text": "我喜欢用逻辑和事实来分析问题，而不是凭直觉", "dimensionId": "C" }
+  ]
+}
