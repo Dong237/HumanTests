@@ -1,0 +1,77 @@
+{
+  "welcome": {
+    "title": "NEO-PI-R 大五人格测试",
+    "subtitle": "专业、科学的人格评估工具",
+    "tagline": "了解真实的自己"
+  },
+  "overview": {
+    "title": "关于本测试",
+    "description": "NEO-PI-R是当代心理学研究中最权威的人格评估工具",
+    "features": ["240道精心设计的题目", "基于五因素模型", "30个子维度深度分析"]
+  },
+  "bigFiveModel": {
+    "title": "什么是大五人格？",
+    "description": "大五人格模型是基于大量词汇学和因素分析研究提炼出的人格结构理论",
+    "dimensions": [
+      {"id": "N", "name": "神经质 (Neuroticism)", "aka": "情绪稳定性", "icon": "😰", "brief": "反映情绪稳定性", "question": "您容易担心和焦虑吗？"},
+      {"id": "E", "name": "外向性 (Extraversion)", "aka": "社交活跃度", "icon": "🎉", "brief": "衡量社交活跃度", "question": "您喜欢热闹的聚会还是安静的独处？"},
+      {"id": "O", "name": "开放性 (Openness)", "aka": "好奇心与创造力", "icon": "🎨", "brief": "反映对新体验的接受程度", "question": "您喜欢探索新事物还是坚持熟悉的方式？"},
+      {"id": "A", "name": "宜人性 (Agreeableness)", "aka": "合作与同理心", "icon": "🤝", "brief": "体现人际交往中的合作性", "question": "您倾向于相信和帮助他人吗？"},
+      {"id": "C", "name": "尽责性 (Conscientiousness)", "aka": "自律与目标导向", "icon": "📋", "brief": "反映自律性和组织能力", "question": "您是计划周详的行动派吗？"}
+    ]
+  },
+  "howToTake": {
+    "title": "如何作答",
+    "instructions": [
+      {"step": 1, "title": "诚实作答", "description": "请根据您真实的想法和感受作答", "tip": "想象一下您在日常生活中通常会怎么做"},
+      {"step": 2, "title": "凭第一感觉", "description": "不要过度思考每道题目", "tip": "如果觉得难以决定，选择最接近的选项即可"},
+      {"step": 3, "title": "保持专注", "description": "每道题都很重要", "tip": "建议预留30-40分钟的完整时间"},
+      {"step": 4, "title": "避免极端", "description": "尽量避免过多选择极端选项", "tip": "大多数人的大多数答案会分布在中间三个选项"}
+    ],
+    "likertScale": {
+      "title": "评分说明",
+      "description": "每道题使用5点量表",
+      "options": [
+        {"value": 1, "label": "非常不同意", "when": "完全不符合您的情况"},
+        {"value": 2, "label": "不同意", "when": "大多数时候不符合"},
+        {"value": 3, "label": "中立", "when": "一半一半"},
+        {"value": 4, "label": "同意", "when": "大多数时候符合"},
+        {"value": 5, "label": "非常同意", "when": "完全符合您的情况"}
+      ]
+    }
+  },
+  "whatToExpect": {
+    "title": "测试结果包含",
+    "sections": [
+      {"icon": "📊", "title": "五大维度得分", "description": "每个维度的T分数"},
+      {"icon": "🔍", "title": "30个子维度分析", "description": "深入了解每个维度"},
+      {"icon": "👥", "title": "常模比较", "description": "与中国人群常模对比"}
+    ],
+    "timeEstimate": {"min": 25, "max": 40, "average": 30, "description": "大多数人需要30分钟左右完成全部240道题"}
+  },
+  "privacy": {
+    "title": "隐私保护",
+    "assurances": ["所有测试数据仅保存在您的浏览器本地存储中", "不会上传至任何服务器"],
+    "note": "我们尊重您的隐私"
+  },
+  "disclaimer": {
+    "title": "重要提示",
+    "points": [
+      {"type": "info", "content": "本测试结果仅供自我了解和参考"},
+      {"type": "warning", "content": "如有心理健康疑虑，请咨询专业心理医生"}
+    ]
+  },
+  "scientificBasis": {
+    "title": "科学依据",
+    "development": "NEO-PI-R由Paul Costa和Robert McCrae开发",
+    "validation": "已被翻译成50多种语言",
+    "applications": ["临床心理评估", "职业咨询", "教育指导"],
+    "references": ["Costa, P. T., & McCrae, R. R. (1992). NEO PI-R Professional Manual"]
+  },
+  "readyToStart": {
+    "title": "准备好了吗？",
+    "checklist": ["您处在安静、不受打扰的环境中", "您有30-40分钟的完整时间"],
+    "encouragement": "了解自己是成长的第一步",
+    "buttonText": "开始测试"
+  }
+}

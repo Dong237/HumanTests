@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "source": "戴晓阳等（2012）《NEO-PI-R人格量表中国版使用手册》",
+    "sampleSize": {"male": 543, "female": 366, "total": 909},
+    "region": "中国大陆多个省市",
+    "year": 2012,
+    "note": "本常模数据来自2012年中国样本，用于参考比较"
+  },
+  "genderComparison": {
+    "N": {
+      "dimensionName": "神经质",
+      "male": {"rawMean": 75.78, "rawSd": 24.39, "tMean": 79, "tSd": 18.85},
+      "female": {"rawMean": 85.13, "rawSd": 23.75, "tMean": 88, "tSd": 19.02},
+      "significance": "**",
+      "interpretation": "女性在神经质维度上的平均得分显著高于男性",
+      "caveat": "这是群体统计趋势，不代表所有女性都比所有男性更神经质"
+    },
+    "E": {
+      "dimensionName": "外向性",
+      "male": {"rawMean": 112.73, "rawSd": 18.20, "tMean": 127, "tSd": 18.27},
+      "female": {"rawMean": 109.30, "rawSd": 19.35, "tMean": 133, "tSd": 18.01},
+      "significance": "",
+      "interpretation": "男女平均得分差异不显著",
+      "caveat": "外向内向与性别无关"
+    },
+    "O": {
+      "dimensionName": "开放性",
+      "male": {"rawMean": 112.25, "rawSd": 16.25, "tMean": 119, "tSd": 15.79},
+      "female": {"rawMean": 116.21, "rawSd": 17.51, "tMean": 123, "tSd": 15.33},
+      "significance": "**",
+      "interpretation": "女性在开放性维度上的平均得分显著高于男性",
+      "caveat": "个体差异是主导因素"
+    },
+    "A": {
+      "dimensionName": "宜人性",
+      "male": {"rawMean": 114.70, "rawSd": 14.62, "tMean": 119, "tSd": 14.81},
+      "female": {"rawMean": 118.62, "rawSd": 15.43, "tMean": 125, "tSd": 14.46},
+      "significance": "**",
+      "interpretation": "女性在宜人性维度上的平均得分显著高于男性",
+      "caveat": "许多男性同样富有同情心和合作精神"
+    },
+    "C": {
+      "dimensionName": "尽责性",
+      "male": {"rawMean": 128.47, "rawSd": 19.51, "tMean": 132, "tSd": 15.35},
+      "female": {"rawMean": 124.93, "rawSd": 18.66, "tMean": 133, "tSd": 15.02},
+      "significance": "*",
+      "interpretation": "男性平均得分略高于女性，但差异较小",
+      "caveat": "自律和责任心主要是个人特质"
+    }
+  },
+  "scoreInterpretation": {
+    "tScore": {
+      "name": "T分数",
+      "description": "T分数是标准化得分，平均值为50，标准差为10"
+    },
+    "percentile": {
+      "name": "百分位",
+      "description": "百分位表示您的得分超过了百分之多少的人"
+    }
+  },
+  "generalNotes": {
+    "individualDifferences": "人格是连续分布的，不是非黑即白",
+    "stability": "人格特质相对稳定，但也会随年龄和经历变化",
+    "context": "人格特质会受情境影响",
+    "limitations": "本测试基于自我报告，可能受当前情绪等因素影响"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "dimensions": {
+    "N": {
+      "name": "神经质",
+      "nameEn": "Neuroticism",
+      "description": "反映个体情感调节过程，反映个体体验消极情绪的倾向和情绪不稳定性",
+      "facets": {
+        "N1": {
+          "name": "焦虑",
+          "nameEn": "Anxiety",
+          "questions": [1, 31, 61, 91, 121, 151, 181, 211]
+        },
+        "N2": {
+          "name": "愤怒敌意",
+          "nameEn": "Angry Hostility",
+          "questions": [6, 36, 66, 96, 126, 156, 186, 216]
+        },
+        "N3": {
+          "name": "抑郁",
+          "nameEn": "Depression",
+          "questions": [11, 41, 71, 101, 131, 161, 191, 221]
+        },
+        "N4": {
+          "name": "自我意识",
+          "nameEn": "Self-Consciousness",
+          "questions": [16, 46, 76, 106, 136, 166, 196, 226]
+        },
+        "N5": {
+          "name": "冲动性",
+          "nameEn": "Impulsiveness",
+          "questions": [21, 51, 81, 111, 141, 171, 201, 231]
+        },
+        "N6": {
+          "name": "脆弱性",
+          "nameEn": "Vulnerability",
+          "questions": [26, 56, 86, 116, 146, 176, 206, 236]
+        }
+      }
+    },
+    "E": {
+      "name": "外向性",
+      "nameEn": "Extraversion",
+      "description": "表示人际互动的数量和密度、对刺激的需要以及获得愉悦的能力",
+      "facets": {
+        "E1": {
+          "name": "热情性",
+          "nameEn": "Warmth",
+          "questions": [2, 32, 62, 92, 122, 152, 182, 212]
+        },
+        "E2": {
+          "name": "乐群性",
+          "nameEn": "Gregariousness",
+          "questions": [7, 37, 67, 97, 127, 157, 187, 217]
+        },
+        "E3": {
+          "name": "自我肯定",
+          "nameEn": "Assertiveness",
+          "questions": [12, 42, 72, 102, 132, 162, 192, 222]
+        },
+        "E4": {
+          "name": "活跃性",
+          "nameEn": "Activity",
+          "questions": [17, 47, 77, 107, 137, 167, 197, 227]
+        },
+        "E5": {
+          "name": "寻求刺激",
+          "nameEn": "Excitement-Seeking",
+          "questions": [22, 52, 82, 112, 142, 172, 202, 232]
+        },
+        "E6": {
+          "name": "积极情绪",
+          "nameEn": "Positive Emotions",
+          "questions": [27, 57, 87, 117, 147, 177, 207, 237]
+        }
+      }
+    },
+    "O": {
+      "name": "开放性",
+      "nameEn": "Openness",
+      "description": "描述一个人的认知风格，对经验的前摄寻求和对的理解，以及对陌生情境的容忍和探索",
+      "facets": {
+        "O1": {
+          "name": "想象力",
+          "nameEn": "Fantasy",
+          "questions": [3, 33, 63, 93, 123, 153, 183, 213]
+        },
+        "O2": {
+          "name": "审美",
+          "nameEn": "Aesthetics",
+          "questions": [8, 38, 68, 98, 128, 158, 188, 218]
+        },
+        "O3": {
+          "name": "情感",
+          "nameEn": "Feelings",
+          "questions": [13, 43, 73, 103, 133, 163, 193, 223]
+        },
+        "O4": {
+          "name": "行动",
+          "nameEn": "Actions",
+          "questions": [18, 48, 78, 108, 138, 168, 198, 228]
+        },
+        "O5": {
+          "name": "观念",
+          "nameEn": "Ideas",
+          "questions": [23, 53, 83, 113, 143, 173, 203, 233]
+        },
+        "O6": {
+          "name": "价值",
+          "nameEn": "Values",
+          "questions": [28, 58, 88, 118, 148, 178, 208, 238]
+        }
+      }
+    },
+    "A": {
+      "name": "宜人性",
+      "nameEn": "Agreeableness",
+      "description": "考察个体对其他人所持的态度，代表了\"爱\"，对合作和人际和谐是否看重",
+      "facets": {
+        "A1": {
+          "name": "信任",
+          "nameEn": "Trust",
+          "questions": [4, 34, 64, 94, 124, 154, 184, 214]
+        },
+        "A2": {
+          "name": "坦诚",
+          "nameEn": "Straightforwardness",
+          "questions": [9, 39, 69, 99, 129, 159, 189, 219]
+        },
+        "A3": {
+          "name": "利他性",
+          "nameEn": "Altruism",
+          "questions": [14, 44, 74, 104, 134, 164, 194, 224]
+        },
+        "A4": {
+          "name": "顺从性",
+          "nameEn": "Compliance",
+          "questions": [19, 49, 79, 109, 139, 169, 199, 229]
+        },
+        "A5": {
+          "name": "谦虚",
+          "nameEn": "Modesty",
+          "questions": [24, 54, 84, 114, 144, 174, 204, 234]
+        },
+        "A6": {
+          "name": "温存",
+          "nameEn": "Tender-Mindedness",
+          "questions": [29, 59, 89, 119, 149, 179, 209, 239]
+        }
+      }
+    },
+    "C": {
+      "name": "尽责性",
+      "nameEn": "Conscientiousness",
+      "description": "指我们控制、管理和调节自身冲动的方式，评估个体在目标导向行为上的组织、坚持和动机",
+      "facets": {
+        "C1": {
+          "name": "胜任感",
+          "nameEn": "Competence",
+          "questions": [5, 35, 65, 95, 125, 155, 185, 215]
+        },
+        "C2": {
+          "name": "条理性",
+          "nameEn": "Order",
+          "questions": [10, 40, 70, 100, 130, 160, 190, 220]
+        },
+        "C3": {
+          "name": "责任心",
+          "nameEn": "Dutifulness",
+          "questions": [15, 45, 75, 105, 135, 165, 195, 225]
+        },
+        "C4": {
+          "name": "事业心",
+          "nameEn": "Achievement Striving",
+          "questions": [20, 50, 80, 110, 140, 170, 200, 230]
+        },
+        "C5": {
+          "name": "自律性",
+          "nameEn": "Self-Discipline",
+          "questions": [25, 55, 85, 115, 145, 175, 205, 235]
+        },
+        "C6": {
+          "name": "审慎性",
+          "nameEn": "Deliberation",
+          "questions": [30, 60, 90, 120, 150, 180, 210, 240]
+        }
+      }
+    }
+  },
+  "reverseScored": [
+    1, 7, 8, 10, 11, 17, 18, 20, 21, 27, 28, 32, 33, 35, 36, 42, 43, 45, 46, 52, 53, 55, 56, 61, 67, 68, 70, 71, 77, 78, 79, 80, 81, 87, 92, 93, 95, 96, 102, 103, 106, 112, 113, 115, 116, 121, 127, 128, 130, 134, 137, 138, 140, 141, 145, 147, 148, 153, 155, 156, 162, 163, 166, 173, 174, 175, 176, 180, 181, 183, 184, 190, 198, 207, 213, 220, 222, 228, 231, 236
+  ],
+  "likertScale": {
+    "1": "非常不同意",
+    "2": "不同意",
+    "3": "中立",
+    "4": "同意",
+    "5": "非常同意"
+  },
+  "norms": {
+    "male": {
+      "N": {"mean": 79, "sd": 18.85},
+      "E": {"mean": 127, "sd": 18.27},
+      "O": {"mean": 119, "sd": 15.79},
+      "A": {"mean": 119, "sd": 14.81},
+      "C": {"mean": 132, "sd": 15.35}
+    },
+    "female": {
+      "N": {"mean": 88, "sd": 19.02},
+      "E": {"mean": 133, "sd": 18.01},
+      "O": {"mean": 123, "sd": 15.33},
+      "A": {"mean": 125, "sd": 14.46},
+      "C": {"mean": 133, "sd": 15.02}
+    }
+  }
+}

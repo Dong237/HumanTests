@@ -1,0 +1,81 @@
+{
+  "N": {
+    "name": "神经质",
+    "nameEn": "Neuroticism",
+    "icon": "😰",
+    "color": "#FFB3BA",
+    "shortDescription": "反映个体情感调节过程",
+    "fullDescription": "神经质维度反映个体的情绪稳定性和对压力的反应模式。",
+    "highScore": {
+      "range": "T分 > 60",
+      "description": "您在神经质维度上得分较高",
+      "traits": ["情感丰富", "对压力敏感"],
+      "strengths": ["敏感细腻", "警觉性高"],
+      "challenges": ["容易焦虑"],
+      "careerFit": ["艺术创作", "心理咨询"],
+      "developmentTips": ["学习正念冥想"]
+    },
+    "averageScore": {
+      "range": "40-60",
+      "description": "情绪稳定性适中"
+    },
+    "lowScore": {
+      "range": "T分 < 40",
+      "description": "情绪稳定",
+      "traits": ["冷静平和"],
+      "strengths": ["抗压能力强"],
+      "challenges": [],
+      "careerFit": ["危机管理"],
+      "developmentTips": []
+    },
+    "facets": {
+      "N1": {"name": "焦虑", "description": "担心倾向", "highMeans": "容易紧张", "lowMeans": "放松自信"},
+      "N2": {"name": "愤怒敌意", "description": "愤怒倾向", "highMeans": "容易生气", "lowMeans": "温和"},
+      "N3": {"name": "抑郁", "description": "抑郁倾向", "highMeans": "容易沮丧", "lowMeans": "乐观"},
+      "N4": {"name": "自我意识", "description": "自我意识", "highMeans": "在意评价", "lowMeans": "不在意"},
+      "N5": {"name": "冲动性", "description": "冲动控制", "highMeans": "冲动", "lowMeans": "克制"},
+      "N6": {"name": "脆弱性", "description": "压力应对", "highMeans": "应对困难", "lowMeans": "应对良好"}
+    }
+  },
+  "E": {
+    "name": "外向性",
+    "nameEn": "Extraversion",
+    "icon": "🎉",
+    "color": "#FFDFBA",
+    "shortDescription": "表示人际互动的数量和密度",
+    "fullDescription": "外向性维度反映了个体在社交互动中的活跃程度。",
+    "highScore": {
+      "range": "T分 > 60",
+      "description": "典型的外向者",
+      "traits": ["热情开朗"],
+      "strengths": ["善于交际"],
+      "challenges": [],
+      "careerFit": ["销售"],
+      "developmentTips": []
+    },
+    "averageScore": {
+      "range": "40-60",
+      "description": "社交适中"
+    },
+    "lowScore": {
+      "range": "T分 < 40",
+      "description": "倾向于内向",
+      "traits": ["深思熟虑"],
+      "strengths": ["专注力强"],
+      "challenges": [],
+      "careerFit": ["研究"],
+      "developmentTips": []
+    },
+    "facets": {
+      "E1": {"name": "热情", "description": "热情程度", "highMeans": "热情友好", "lowMeans": "冷静疏远"},
+      "E2": {"name": "群居性", "description": "社交需求", "highMeans": "喜欢人多", "lowMeans": "喜欢独处"},
+      "E3": {"name": "果敢性", "description": "主导性", "highMeans": "主导", "lowMeans": "追随"},
+      "E4": {"name": "活跃性", "description": "活动水平", "highMeans": "精力充沛", "lowMeans": "慢节奏"},
+      "E5": {"name": "寻求刺激", "description": "刺激需求", "highMeans": "寻求刺激", "lowMeans": "平静"},
+      "E6": {"name": "积极情绪", "description": "积极情绪", "highMeans": "快乐", "lowMeans": "严肃"}
+    }
+  },
+  "O": {"name": "开放性", "nameEn": "Openness", "icon": "🎨", "color": "#BAE1FF", "shortDescription": "对经验的前摄寻求", "fullDescription": "开放性维度反映个体对新经验的接受程度", "highScore": {"range": "T分 > 60", "description": "高开放性", "traits": [], "strengths": [], "challenges": [], "careerFit": [], "developmentTips": []}, "averageScore": {"range": "40-60", "description": "适中"}, "lowScore": {"range": "T分 < 40", "description": "传统务实", "traits": [], "strengths": [], "challenges": [], "careerFit": [], "developmentTips": []}, "facets": {"O1": {"name": "幻想", "description": "想象力", "highMeans": "想象力丰富", "lowMeans": "务实"}, "O2": {"name": "审美", "description": "艺术兴趣", "highMeans": "艺术", "lowMeans": "不感兴趣"}, "O3": {"name": "情感", "description": "情感深度", "highMeans": "情感丰富", "lowMeans": "平淡"}, "O4": {"name": "行动", "description": "尝新", "highMeans": "尝试新事物", "lowMeans": "熟悉"}, "O5": {"name": "观念", "description": "智力好奇", "highMeans": "好奇", "lowMeans": "不感兴趣"}, "O6": {"name": "价值观", "description": "价值观", "highMeans": "开放", "lowMeans": "保守"}}},
+  "A": {"name": "宜人性", "nameEn": "Agreeableness", "icon": "🤝", "color": "#BAFFC9", "shortDescription": "对合作和人际和谐的重视", "fullDescription": "宜人性维度反映个体在人际交往中的合作性", "highScore": {"range": "T分 > 60", "description": "高宜人性", "traits": [], "strengths": [], "challenges": [], "careerFit": [], "developmentTips": []}, "averageScore": {"range": "40-60", "description": "适中"}, "lowScore": {"range": "T分 < 40", "description": "独立批判", "traits": [], "strengths": [], "challenges": [], "careerFit": [], "developmentTips": []}, "facets": {"A1": {"name": "信任", "description": "信任", "highMeans": "信任他人", "lowMeans": "怀疑"}, "A2": {"name": "坦率", "description": "坦率", "highMeans": "坦率", "lowMeans": "精明"}, "A3": {"name": "利他性", "description": "助人", "highMeans": "乐于助人", "lowMeans": "自我"}, "A4": {"name": "依从性", "description": "合作", "highMeans": "合作", "lowMeans": "对抗"}, "A5": {"name": "谦虚", "description": "谦虚", "highMeans": "谦虚", "lowMeans": "自负"}, "A6": {"name": "移情", "description": "同理心", "highMeans": "同情", "lowMeans": "冷硬"}}},
+  "C": {"name": "尽责性", "nameEn": "Conscientiousness", "icon": "📋", "color": "#D4BAFF", "shortDescription": "控制和调节自身冲动的方式", "fullDescription": "尽责性维度反映个体的自律性", "highScore": {"range": "T分 > 60", "description": "高尽责性", "traits": [], "strengths": [], "challenges": [], "careerFit": [], "developmentTips": []}, "averageScore": {"range": "40-60", "description": "适中"}, "lowScore": {"range": "T分 < 40", "description": "灵活自发", "traits": [], "strengths": [], "challenges": [], "careerFit": [], "developmentTips": []}, "facets": {"C1": {"name": "胜任感", "description": "能力感", "highMeans": "能干", "lowMeans": "无能"}, "C2": {"name": "条理性", "description": "组织", "highMeans": "有条理", "lowMeans": "无序"}, "C3": {"name": "尽职性", "description": "责任", "highMeans": "负责", "lowMeans": "不可靠"}, "C4": {"name": "成就追求", "description": "目标", "highMeans": "勤奋", "lowMeans": "懒散"}, "C5": {"name": "自律", "description": "自律", "highMeans": "自律", "lowMeans": "拖延"}, "C6": {"name": "审慎性", "description": "谨慎", "highMeans": "谨慎", "lowMeans": "冲动"}}}
+}
