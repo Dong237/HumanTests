@@ -1,0 +1,67 @@
+{
+  "types": {
+    "1": {
+      "typeId": "1",
+      "typeName": "完美主义者",
+      "typeNameEn": "The Perfectionist",
+      "triad": "gut",
+      "color": "#8B4513"
+    },
+    "2": {
+      "typeId": "2",
+      "typeName": "助人者",
+      "typeNameEn": "The Helper",
+      "triad": "heart",
+      "color": "#DC143C"
+    },
+    "3": {
+      "typeId": "3",
+      "typeName": "成就者",
+      "typeNameEn": "The Achiever",
+      "triad": "heart",
+      "color": "#FFD700"
+    },
+    "4": {
+      "typeId": "4",
+      "typeName": "艺术家",
+      "typeNameEn": "The Individualist",
+      "triad": "heart",
+      "color": "#9370DB"
+    },
+    "5": {
+      "typeId": "5",
+      "typeName": "观察者",
+      "typeNameEn": "The Investigator",
+      "triad": "head",
+      "color": "#2F4F4F"
+    },
+    "6": {
+      "typeId": "6",
+      "typeName": "忠诚者",
+      "typeNameEn": "The Loyalist",
+      "triad": "head",
+      "color": "#4169E1"
+    },
+    "7": {
+      "typeId": "7",
+      "typeName": "享乐者",
+      "typeNameEn": "The Enthusiast",
+      "triad": "head",
+      "color": "#32CD32"
+    },
+    "8": {
+      "typeId": "8",
+      "typeName": "挑战者",
+      "typeNameEn": "The Challenger",
+      "triad": "gut",
+      "color": "#B22222"
+    },
+    "9": {
+      "typeId": "9",
+      "typeName": "和平者",
+      "typeNameEn": "The Peacemaker",
+      "triad": "gut",
+      "color": "#87CEEB"
+    }
+  }
+}
