@@ -1,0 +1,203 @@
+{
+  "welcome": {
+    "title": "Holland RIASEC 职业兴趣测试",
+    "subtitle": "发现您的职业兴趣类型，找到最适合的职业方向",
+    "tagline": "基于John Holland职业兴趣理论，科学评估您的六大兴趣类型"
+  },
+  "overview": {
+    "title": "关于Holland职业兴趣理论",
+    "description": "Holland职业兴趣理论由美国心理学家John Holland于1959年提出，是全球应用最广泛的职业指导理论之一。该理论认为人的职业兴趣可以归纳为六种基本类型：现实型(R)、研究型(I)、艺术型(A)、社会型(S)、企业型(E)和常规型(C)，简称RIASEC。每个人通常是多种类型的组合，其中最突出的2-3种类型构成个人的Holland职业代码。",
+    "features": [
+      "基于60年学术研究积累，全球数百万人使用",
+      "评估六大职业兴趣类型，覆盖所有职业领域",
+      "生成个人Holland三字代码，精准匹配职业方向",
+      "结合IPIP题库，具有良好的信度和效度"
+    ]
+  },
+  "hollandModel": {
+    "title": "六大兴趣类型 (RIASEC)",
+    "description": "Holland理论将职业兴趣分为六种类型，它们按照六角形排列，相邻类型最为相似，对角类型最为不同。",
+    "types": [
+      {
+        "id": "R",
+        "name": "现实型 Realistic",
+        "icon": "🔧",
+        "brief": "喜欢动手操作、与事物打交道，偏好具体、实际的任务。",
+        "example": "工程师、技师、机械师、飞行员"
+      },
+      {
+        "id": "I",
+        "name": "研究型 Investigative",
+        "icon": "🔬",
+        "brief": "喜欢观察、学习和分析，善于抽象思维和独立思考。",
+        "example": "科学家、研究员、医生、程序员"
+      },
+      {
+        "id": "A",
+        "name": "艺术型 Artistic",
+        "icon": "🎨",
+        "brief": "喜欢创造性活动，富有想象力，追求自由表达和美学体验。",
+        "example": "艺术家、设计师、音乐家、作家"
+      },
+      {
+        "id": "S",
+        "name": "社会型 Social",
+        "icon": "🤝",
+        "brief": "喜欢与人交往，善于沟通合作，关心他人的成长和福祉。",
+        "example": "教师、咨询师、护士、社会工作者"
+      },
+      {
+        "id": "E",
+        "name": "企业型 Enterprising",
+        "icon": "💼",
+        "brief": "喜欢领导和影响他人，有竞争意识，追求权力和物质成就。",
+        "example": "企业家、经理人、律师、销售总监"
+      },
+      {
+        "id": "C",
+        "name": "常规型 Conventional",
+        "icon": "📊",
+        "brief": "喜欢按规则办事，注重细节和秩序，擅长系统化的数据处理。",
+        "example": "会计师、审计师、行政管理、银行职员"
+      }
+    ]
+  },
+  "hollandCode": {
+    "title": "什么是Holland三字代码？",
+    "description": "Holland三字代码由您得分最高的三种兴趣类型组成。例如，如果您在研究型(I)、艺术型(A)和社会型(S)上得分最高，您的Holland代码就是'IAS'。这个代码可以帮助您找到最匹配的职业方向。",
+    "examples": [
+      { "code": "RIA", "careers": "工程设计师、建筑师、技术创新者" },
+      { "code": "ISA", "careers": "科研工作者、学术研究员、技术作家" },
+      { "code": "ASE", "careers": "广告创意、品牌策划、艺术教育" },
+      { "code": "SEC", "careers": "人力资源管理、教育行政、组织培训" },
+      { "code": "ECS", "careers": "企业管理、项目管理、商业咨询" },
+      { "code": "CRI", "careers": "质量工程、系统管理、技术审计" }
+    ]
+  },
+  "howToTake": {
+    "title": "如何作答",
+    "instructions": [
+      {
+        "step": 1,
+        "title": "阅读题目",
+        "description": "每道题描述一种活动或兴趣倾向，请仔细阅读。",
+        "tip": "关注自己的真实兴趣，而非能力或他人期望。"
+      },
+      {
+        "step": 2,
+        "title": "选择等级",
+        "description": "根据您的兴趣程度，从5个等级中选择最符合的一项。",
+        "tip": "没有对错之分，选择最真实反映您兴趣的选项。"
+      },
+      {
+        "step": 3,
+        "title": "凭直觉作答",
+        "description": "不要过度思考，凭第一感觉选择。",
+        "tip": "直觉往往能更准确地反映您的真实兴趣倾向。"
+      }
+    ],
+    "likertScale": {
+      "title": "兴趣等级量表",
+      "description": "请根据以下5个等级评估您对每项活动的兴趣程度：",
+      "options": [
+        { "value": 1, "label": "非常不感兴趣", "when": "这类活动完全不吸引您" },
+        { "value": 2, "label": "不太感兴趣", "when": "偶尔接触可以，但不会主动选择" },
+        { "value": 3, "label": "一般", "when": "无所谓喜欢或不喜欢" },
+        { "value": 4, "label": "比较感兴趣", "when": "您愿意主动参与这类活动" },
+        { "value": 5, "label": "非常感兴趣", "when": "这类活动让您充满热情和动力" }
+      ]
+    }
+  },
+  "whatToExpect": {
+    "title": "您将获得",
+    "sections": [
+      {
+        "icon": "🏷️",
+        "title": "Holland三字代码",
+        "description": "您独特的职业兴趣代码，由得分最高的三种类型组成。"
+      },
+      {
+        "icon": "📊",
+        "title": "六维兴趣雷达图",
+        "description": "直观展示您在六种兴趣类型上的分布情况。"
+      },
+      {
+        "icon": "💼",
+        "title": "职业匹配推荐",
+        "description": "基于您的兴趣类型推荐最适合的职业方向。"
+      },
+      {
+        "icon": "📋",
+        "title": "详细类型解读",
+        "description": "每种兴趣类型的深入分析和发展建议。"
+      }
+    ],
+    "timeEstimate": {
+      "description": "预计完成时间",
+      "min": 8,
+      "max": 15
+    }
+  },
+  "privacy": {
+    "title": "隐私保护",
+    "assurances": [
+      "所有数据仅保存在您的浏览器本地",
+      "不会上传到任何服务器",
+      "关闭浏览器后可选择清除数据",
+      "完全匿名，无需注册账号"
+    ],
+    "note": "我们尊重并保护您的隐私，测试数据完全由您掌控。"
+  },
+  "disclaimer": {
+    "title": "使用须知",
+    "points": [
+      {
+        "type": "info",
+        "content": "本测试基于IPIP公共题库改编，仅供个人职业探索和自我了解使用。"
+      },
+      {
+        "type": "info",
+        "content": "测试结果反映的是您的兴趣倾向，而非能力水平。兴趣和能力同样重要，建议结合两者进行职业规划。"
+      },
+      {
+        "type": "warning",
+        "content": "本测试不能替代专业的职业生涯咨询。如需做出重大职业决策，建议咨询专业的职业规划师。"
+      },
+      {
+        "type": "info",
+        "content": "兴趣可能随时间和经历而变化，建议定期重新评估。"
+      }
+    ]
+  },
+  "readyToStart": {
+    "title": "准备开始",
+    "checklist": [
+      "找一个安静、不被打扰的环境",
+      "准备好10-15分钟的时间",
+      "保持放松的心态",
+      "想想自己真正喜欢做什么，而非应该做什么"
+    ],
+    "encouragement": "没有好坏之分，每种兴趣类型都有独特的价值。重要的是找到真正让您热爱的方向！",
+    "buttonText": "开始测试 (60题)"
+  },
+  "scientificBasis": {
+    "title": "科学依据",
+    "development": "Holland职业兴趣理论由John Holland于1959年提出，经过60多年的研究验证，已成为全球最具影响力的职业指导理论。本测试题目改编自IPIP (International Personality Item Pool) 公共心理测量题库。",
+    "validation": "RIASEC模型已在数百项研究中得到验证，具有良好的结构效度和预测效度。研究表明，人们倾向于在与其兴趣类型匹配的职业环境中获得更高的满意度和成就感。",
+    "applications": [
+      "高校职业规划与就业指导",
+      "企业人才选拔与岗位匹配",
+      "个人职业发展与转型咨询",
+      "青少年兴趣探索与专业选择"
+    ],
+    "references": [
+      "Holland, J. L. (1997). Making vocational choices: A theory of vocational personalities and work environments (3rd ed.). Psychological Assessment Resources.",
+      "Goldberg, L. R. et al. (2006). The international personality item pool and the future of public-domain personality measures. Journal of Research in Personality, 40(1), 84-96.",
+      "Rounds, J., & Su, R. (2014). The nature and power of interests. Current Directions in Psychological Science, 23(2), 98-103."
+    ],
+    "source": {
+      "name": "IPIP (International Personality Item Pool)",
+      "url": "https://ipip.ori.org"
+    }
+  }
+}
