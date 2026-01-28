@@ -1,0 +1,147 @@
+{
+  "welcome": {
+    "title": "MBTI 性格类型测试",
+    "subtitle": "发现您的16型人格，了解真实的自己",
+    "tagline": "基于卡尔·荣格的心理类型理论"
+  },
+  "overview": {
+    "title": "测试概览",
+    "description": "MBTI（Myers-Briggs Type Indicator）基于瑞士心理学家卡尔·荣格的心理类型理论，由凯瑟琳·布里格斯和伊莎贝尔·迈尔斯母女在20世纪40年代发展而成。MBTI通过评估四个维度的偏好，将人的性格分为16种类型。了解自己的MBTI类型有助于认识自我、改善人际关系、做出更好的职业选择。",
+    "features": [
+      "基于荣格心理类型理论，全球广泛应用",
+      "70道精选题目，评估4个维度偏好",
+      "识别您的16型人格类型",
+      "提供详细的性格特征分析",
+      "包含认知功能栈和职业建议",
+      "测试结果可下载保存"
+    ]
+  },
+  "mbtiModel": {
+    "title": "MBTI四维模型",
+    "description": "MBTI通过4个维度来描述性格偏好。每个维度是一个连续体，有两个对立的极点。4个维度的组合产生16种独特的性格类型。",
+    "dichotomies": [
+      {
+        "id": "EI",
+        "name": "外向 (E) vs 内向 (I)",
+        "question": "能量来源：您从哪里获得能量？",
+        "e": { "label": "外向", "brief": "从外部世界和社交互动中获得能量" },
+        "i": { "label": "内向", "brief": "从内心世界和独处中获得能量" }
+      },
+      {
+        "id": "SN",
+        "name": "实感 (S) vs 直觉 (N)",
+        "question": "信息接收：您如何获取和处理信息？",
+        "s": { "label": "实感", "brief": "关注具体事实、细节和当下经验" },
+        "n": { "label": "直觉", "brief": "关注抽象概念、模式和未来可能性" }
+      },
+      {
+        "id": "TF",
+        "name": "思考 (T) vs 情感 (F)",
+        "question": "决策方式：您如何做决定？",
+        "t": { "label": "思考", "brief": "基于逻辑分析和客观原则做决策" },
+        "f": { "label": "情感", "brief": "基于价值观和他人感受做决策" }
+      },
+      {
+        "id": "JP",
+        "name": "判断 (J) vs 知觉 (P)",
+        "question": "生活方式：您如何组织生活？",
+        "j": { "label": "判断", "brief": "喜欢计划、结构和确定性" },
+        "p": { "label": "知觉", "brief": "喜欢灵活、开放和自发性" }
+      }
+    ]
+  },
+  "howToTake": {
+    "title": "如何答题",
+    "instructions": [
+      {
+        "step": 1,
+        "title": "真实回答",
+        "description": "请选择您自然而然的倾向，而非您认为'应该'怎样。",
+        "tip": "想象在没有外界压力的情况下，您最自然的反应是什么。"
+      },
+      {
+        "step": 2,
+        "title": "直觉选择",
+        "description": "第一反应往往最准确，不要过度思考。",
+        "tip": "如果难以选择，想想大部分时候您更倾向于哪一种。"
+      },
+      {
+        "step": 3,
+        "title": "完整答题",
+        "description": "本测试共70道题目，请完成所有题目以获得准确结果。",
+        "tip": "整个测试约需10-15分钟，建议在安静环境中完成。"
+      }
+    ],
+    "likertScale": {
+      "title": "评分标准 (Likert 5点量表)",
+      "description": "对于每道题目，请根据以下标准选择：",
+      "options": [
+        { "value": 1, "label": "非常不同意" },
+        { "value": 2, "label": "比较不同意" },
+        { "value": 3, "label": "中立" },
+        { "value": 4, "label": "比较同意" },
+        { "value": 5, "label": "非常同意" }
+      ]
+    }
+  },
+  "whatToExpect": {
+    "title": "测试结果预览",
+    "sections": [
+      { "icon": "🔤", "title": "四字母类型", "description": "您的MBTI类型代码(如INTJ)" },
+      { "icon": "📊", "title": "维度分析", "description": "4个维度上的偏好强度" },
+      { "icon": "🎭", "title": "性格画像", "description": "详细的性格特征描述" },
+      { "icon": "💼", "title": "职业建议", "description": "适合的职业方向和发展路径" }
+    ],
+    "timeEstimate": { "description": "预计完成时间", "min": 10, "max": 15 }
+  },
+  "privacy": {
+    "title": "隐私保护",
+    "assurances": [
+      "所有数据仅存储在您的浏览器本地",
+      "不会上传任何信息到服务器",
+      "您可以随时清除浏览器数据",
+      "测试结果仅供个人参考"
+    ]
+  },
+  "disclaimer": {
+    "title": "重要声明",
+    "points": [
+      { "type": "info", "content": "本测试基于MBTI理论，题目来源于开源心理测量资源。" },
+      { "type": "warning", "content": "本测试为非官方MBTI评估，仅供学习和自我了解使用。" },
+      { "type": "info", "content": "性格类型没有优劣之分，每种类型都有独特价值。" },
+      { "type": "info", "content": "人的性格会随时间和环境变化，建议定期重测。" }
+    ]
+  },
+  "readyToStart": {
+    "title": "准备好了吗？",
+    "checklist": [
+      "已安排约10-15分钟不受打扰的时间",
+      "准备以真实的自我回答问题",
+      "了解评分标准（1-5分）",
+      "期待发现自己的MBTI类型"
+    ],
+    "encouragement": "MBTI是全球最流行的性格测试之一，已帮助数百万人更好地了解自己。准备好发现真实的自己了吗？",
+    "buttonText": "开始MBTI性格测试"
+  },
+  "scientificBasis": {
+    "title": "科学背景",
+    "development": "MBTI基于瑞士心理学家卡尔·荣格1921年出版的《心理类型》一书中的理论。凯瑟琳·布里格斯和女儿伊莎贝尔·迈尔斯在荣格理论基础上，于1940年代开发了MBTI评估工具。",
+    "validation": "MBTI已被翻译成30多种语言，每年有超过200万人参加测试。它广泛应用于职业咨询、团队建设、教育和个人发展领域。",
+    "applications": [
+      "职业规划和发展",
+      "团队建设和沟通改善",
+      "教育和学习风格匹配",
+      "人际关系理解",
+      "领导力发展"
+    ],
+    "references": [
+      "Jung, C. G. (1921). Psychological Types. Princeton University Press.",
+      "Myers, I. B., & Myers, P. B. (1995). Gifts Differing: Understanding Personality Type.",
+      "Open-source MBTI implementations and question items"
+    ],
+    "source": {
+      "name": "Open-source MBTI Question Items",
+      "url": "https://openpsychometrics.org/"
+    }
+  }
+}
