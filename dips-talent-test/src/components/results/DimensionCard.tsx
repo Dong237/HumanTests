@@ -10,7 +10,7 @@ interface DimensionCardProps {
 }
 
 const DimensionCard: React.FC<DimensionCardProps> = ({ dimension }) => {
-  const dimData = dimensionData[dimension.dimensionId as keyof typeof dimensionData] as any;
+  const dimData = (dimensionData as any).dimensions[dimension.dimensionId] as any;
   const dimConfig = scoringConfig.dimensions[dimension.dimensionId as keyof typeof scoringConfig.dimensions] as any;
 
   const scoreLevel = dimension.level;
