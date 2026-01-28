@@ -1,0 +1,93 @@
+{
+  "welcome": {
+    "title": "DIPS天赋测量",
+    "subtitle": "发现你的天赋潜能",
+    "tagline": "基于差异心理学模型的专业天赋评估工具"
+  },
+  "overview": {
+    "title": "关于本测试",
+    "description": "DIPS天赋测量基于格拉茨大学Alois Neubauer教授和Sabina Bergner的差异心理学（Differentialpsychologie）研究，通过40道自评题目，评估您在10个核心天赋维度上的表现，帮助您发现自己最突出的天赋方向。",
+    "features": [
+      "40道精心设计的自评题目",
+      "覆盖10个天赋领域",
+      "约5-8分钟即可完成",
+      "提供个性化职业方向建议"
+    ]
+  },
+  "talentModel": {
+    "title": "十大天赋维度",
+    "description": "DIPS模型认为每个人都拥有独特的天赋组合。以下10个维度全面覆盖了人类天赋的主要领域。",
+    "dimensions": [
+      {"id": "A", "name": "语言天赋", "icon": "🗣️", "brief": "清晰表达、有效说服和快速理解语言的能力", "example": "律师、作家、教师"},
+      {"id": "B", "name": "逻辑-算数天赋", "icon": "🧮", "brief": "逻辑推理与数学思维能力", "example": "科学家、程序员、工程师"},
+      {"id": "C", "name": "空间天赋", "icon": "🏗️", "brief": "空间想象与视觉化能力", "example": "建筑师、飞行员、设计师"},
+      {"id": "D", "name": "内省天赋", "icon": "🧘", "brief": "自我认知与情绪管理能力", "example": "心理咨询师、教练"},
+      {"id": "E", "name": "人际天赋", "icon": "🤝", "brief": "人际交往与共情沟通能力", "example": "教师、销售、社工"},
+      {"id": "F", "name": "身体-动觉天赋", "icon": "🏃", "brief": "身体协调与运动控制能力", "example": "运动员、舞者、工匠"},
+      {"id": "G", "name": "音乐天赋", "icon": "🎵", "brief": "音乐感知、节奏与表现能力", "example": "音乐家、作曲家、指挥"},
+      {"id": "H", "name": "自然天赋", "icon": "🌿", "brief": "观察和理解自然界的能力", "example": "生物学家、园艺师、兽医"},
+      {"id": "I", "name": "创造天赋", "icon": "💡", "brief": "创新思维与原创能力", "example": "艺术家、发明家、创业者"},
+      {"id": "J", "name": "美学天赋", "icon": "🎨", "brief": "审美感知与艺术设计能力", "example": "设计师、室内装饰、策展人"}
+    ]
+  },
+  "howToTake": {
+    "title": "如何作答",
+    "instructions": [
+      {"step": 1, "title": "直觉作答", "description": "根据您的第一感觉选择", "tip": "不要过度思考，选择最符合您日常表现的选项"},
+      {"step": 2, "title": "如实评估", "description": "评估您目前的真实能力水平", "tip": "不是您希望自己怎样，而是您实际上怎样"},
+      {"step": 3, "title": "快速完成", "description": "整个测试约5-8分钟", "tip": "40道题，每题停留时间不超过10秒"}
+    ],
+    "likertScale": {
+      "title": "评分说明",
+      "description": "每道题评估您在该方面的擅长程度：",
+      "options": [
+        {"value": 1, "label": "非常不擅长", "when": "这完全不是您的强项"},
+        {"value": 2, "label": "不太擅长", "when": "这方面能力一般偏下"},
+        {"value": 3, "label": "一般", "when": "既不特别强也不特别弱"},
+        {"value": 4, "label": "比较擅长", "when": "这方面能力比大多数人强"},
+        {"value": 5, "label": "非常擅长", "when": "这是您的突出优势"}
+      ]
+    }
+  },
+  "whatToExpect": {
+    "title": "测试结果包含",
+    "sections": [
+      {"icon": "📊", "title": "十维度天赋雷达图", "description": "直观展示您的天赋分布全貌"},
+      {"icon": "🏆", "title": "核心天赋识别", "description": "找出您最突出的2-3个天赋方向"},
+      {"icon": "💼", "title": "职业推荐", "description": "基于天赋匹配的职业发展建议"},
+      {"icon": "📈", "title": "各维度详细分析", "description": "每个天赋维度的深度解读与发展建议"}
+    ],
+    "timeEstimate": {"min": 5, "max": 8, "average": 6, "description": "大多数人5-8分钟即可完成"}
+  },
+  "privacy": {
+    "title": "隐私保护",
+    "assurances": ["所有数据仅保存在您的浏览器本地", "不会上传到任何服务器", "关闭页面后可随时清除数据"],
+    "note": "本测试完全在浏览器本地运行，您的隐私得到充分保障。"
+  },
+  "disclaimer": {
+    "title": "重要声明",
+    "points": [
+      {"type": "info", "content": "本测试基于差异心理学研究，提供天赋倾向参考"},
+      {"type": "warning", "content": "自评结果仅供参考，不能替代专业心理学诊断"},
+      {"type": "info", "content": "天赋与兴趣经常不一致，建议结合兴趣测试综合分析"},
+      {"type": "warning", "content": "很多人对自身天赋认识存在盲区，建议结合他人反馈"}
+    ]
+  },
+  "readyToStart": {
+    "title": "准备好了吗？",
+    "checklist": ["在安静不被打扰的环境中", "有5-8分钟空闲时间", "准备好如实评估自己的能力"],
+    "encouragement": "每个人都有独特的天赋组合，没有好坏之分。让我们一起发现你的天赋潜能！",
+    "buttonText": "开始测试"
+  },
+  "scientificBasis": {
+    "title": "科学基础",
+    "development": "DIPS天赋测量基于格拉茨大学Alois Neubauer教授和Sabina Bergner博士的差异心理学（Differentialpsychologie）研究成果，系统整合了多元智能理论的核心框架。",
+    "validation": "该模型参考了Howard Gardner的多元智能理论，并结合现代差异心理学研究进行了扩展，形成了涵盖10个维度的综合天赋评估体系。",
+    "applications": ["职业规划与发展", "自我认知与成长", "教育方向指导", "团队优势互补"],
+    "references": [
+      "Neubauer, A. & Stern, E. (2007). Lernen macht intelligent. DVA.",
+      "Gardner, H. (1983). Frames of Mind: The Theory of Multiple Intelligences. Basic Books.",
+      "Bergner, S. & Neubauer, A. (2016). Was Menschen bewegt: Begabung, Leistung und Erfolg. Springer."
+    ]
+  }
+}
