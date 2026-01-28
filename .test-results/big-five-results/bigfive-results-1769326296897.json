@@ -1,0 +1,1502 @@
+{
+  "answers": [
+    {
+      "questionNumber": 1,
+      "score": 5
+    },
+    {
+      "questionNumber": 2,
+      "score": 3
+    },
+    {
+      "questionNumber": 3,
+      "score": 2
+    },
+    {
+      "questionNumber": 4,
+      "score": 3
+    },
+    {
+      "questionNumber": 5,
+      "score": 4
+    },
+    {
+      "questionNumber": 6,
+      "score": 1
+    },
+    {
+      "questionNumber": 7,
+      "score": 1
+    },
+    {
+      "questionNumber": 8,
+      "score": 4
+    },
+    {
+      "questionNumber": 9,
+      "score": 3
+    },
+    {
+      "questionNumber": 10,
+      "score": 1
+    },
+    {
+      "questionNumber": 11,
+      "score": 5
+    },
+    {
+      "questionNumber": 12,
+      "score": 4
+    },
+    {
+      "questionNumber": 13,
+      "score": 4
+    },
+    {
+      "questionNumber": 14,
+      "score": 2
+    },
+    {
+      "questionNumber": 15,
+      "score": 3
+    },
+    {
+      "questionNumber": 16,
+      "score": 2
+    },
+    {
+      "questionNumber": 17,
+      "score": 1
+    },
+    {
+      "questionNumber": 18,
+      "score": 4
+    },
+    {
+      "questionNumber": 19,
+      "score": 5
+    },
+    {
+      "questionNumber": 20,
+      "score": 1
+    },
+    {
+      "questionNumber": 21,
+      "score": 5
+    },
+    {
+      "questionNumber": 22,
+      "score": 2
+    },
+    {
+      "questionNumber": 23,
+      "score": 4
+    },
+    {
+      "questionNumber": 24,
+      "score": 3
+    },
+    {
+      "questionNumber": 25,
+      "score": 4
+    },
+    {
+      "questionNumber": 26,
+      "score": 1
+    },
+    {
+      "questionNumber": 27,
+      "score": 2
+    },
+    {
+      "questionNumber": 28,
+      "score": 1
+    },
+    {
+      "questionNumber": 29,
+      "score": 4
+    },
+    {
+      "questionNumber": 30,
+      "score": 1
+    },
+    {
+      "questionNumber": 31,
+      "score": 1
+    },
+    {
+      "questionNumber": 32,
+      "score": 1
+    },
+    {
+      "questionNumber": 33,
+      "score": 4
+    },
+    {
+      "questionNumber": 34,
+      "score": 4
+    },
+    {
+      "questionNumber": 35,
+      "score": 1
+    },
+    {
+      "questionNumber": 36,
+      "score": 4
+    },
+    {
+      "questionNumber": 37,
+      "score": 4
+    },
+    {
+      "questionNumber": 38,
+      "score": 5
+    },
+    {
+      "questionNumber": 39,
+      "score": 1
+    },
+    {
+      "questionNumber": 40,
+      "score": 4
+    },
+    {
+      "questionNumber": 41,
+      "score": 1
+    },
+    {
+      "questionNumber": 42,
+      "score": 3
+    },
+    {
+      "questionNumber": 43,
+      "score": 4
+    },
+    {
+      "questionNumber": 44,
+      "score": 4
+    },
+    {
+      "questionNumber": 45,
+      "score": 2
+    },
+    {
+      "questionNumber": 46,
+      "score": 4
+    },
+    {
+      "questionNumber": 47,
+      "score": 4
+    },
+    {
+      "questionNumber": 48,
+      "score": 5
+    },
+    {
+      "questionNumber": 49,
+      "score": 3
+    },
+    {
+      "questionNumber": 50,
+      "score": 4
+    },
+    {
+      "questionNumber": 51,
+      "score": 1
+    },
+    {
+      "questionNumber": 52,
+      "score": 3
+    },
+    {
+      "questionNumber": 53,
+      "score": 4
+    },
+    {
+      "questionNumber": 54,
+      "score": 3
+    },
+    {
+      "questionNumber": 55,
+      "score": 1
+    },
+    {
+      "questionNumber": 56,
+      "score": 4
+    },
+    {
+      "questionNumber": 57,
+      "score": 1
+    },
+    {
+      "questionNumber": 58,
+      "score": 4
+    },
+    {
+      "questionNumber": 59,
+      "score": 2
+    },
+    {
+      "questionNumber": 60,
+      "score": 4
+    },
+    {
+      "questionNumber": 61,
+      "score": 5
+    },
+    {
+      "questionNumber": 62,
+      "score": 4
+    },
+    {
+      "questionNumber": 63,
+      "score": 1
+    },
+    {
+      "questionNumber": 64,
+      "score": 3
+    },
+    {
+      "questionNumber": 65,
+      "score": 4
+    },
+    {
+      "questionNumber": 66,
+      "score": 1
+    },
+    {
+      "questionNumber": 67,
+      "score": 3
+    },
+    {
+      "questionNumber": 68,
+      "score": 2
+    },
+    {
+      "questionNumber": 69,
+      "score": 2
+    },
+    {
+      "questionNumber": 70,
+      "score": 2
+    },
+    {
+      "questionNumber": 71,
+      "score": 5
+    },
+    {
+      "questionNumber": 72,
+      "score": 3
+    },
+    {
+      "questionNumber": 73,
+      "score": 1
+    },
+    {
+      "questionNumber": 74,
+      "score": 3
+    },
+    {
+      "questionNumber": 75,
+      "score": 5
+    },
+    {
+      "questionNumber": 76,
+      "score": 1
+    },
+    {
+      "questionNumber": 77,
+      "score": 3
+    },
+    {
+      "questionNumber": 78,
+      "score": 3
+    },
+    {
+      "questionNumber": 79,
+      "score": 3
+    },
+    {
+      "questionNumber": 80,
+      "score": 2
+    },
+    {
+      "questionNumber": 81,
+      "score": 5
+    },
+    {
+      "questionNumber": 82,
+      "score": 1
+    },
+    {
+      "questionNumber": 83,
+      "score": 5
+    },
+    {
+      "questionNumber": 84,
+      "score": 4
+    },
+    {
+      "questionNumber": 85,
+      "score": 4
+    },
+    {
+      "questionNumber": 86,
+      "score": 1
+    },
+    {
+      "questionNumber": 87,
+      "score": 1
+    },
+    {
+      "questionNumber": 88,
+      "score": 1
+    },
+    {
+      "questionNumber": 89,
+      "score": 3
+    },
+    {
+      "questionNumber": 90,
+      "score": 3
+    },
+    {
+      "questionNumber": 91,
+      "score": 1
+    },
+    {
+      "questionNumber": 92,
+      "score": 3
+    },
+    {
+      "questionNumber": 93,
+      "score": 5
+    },
+    {
+      "questionNumber": 94,
+      "score": 4
+    },
+    {
+      "questionNumber": 95,
+      "score": 1
+    },
+    {
+      "questionNumber": 96,
+      "score": 5
+    },
+    {
+      "questionNumber": 97,
+      "score": 3
+    },
+    {
+      "questionNumber": 98,
+      "score": 3
+    },
+    {
+      "questionNumber": 99,
+      "score": 4
+    },
+    {
+      "questionNumber": 100,
+      "score": 3
+    },
+    {
+      "questionNumber": 101,
+      "score": 1
+    },
+    {
+      "questionNumber": 102,
+      "score": 3
+    },
+    {
+      "questionNumber": 103,
+      "score": 3
+    },
+    {
+      "questionNumber": 104,
+      "score": 4
+    },
+    {
+      "questionNumber": 105,
+      "score": 1
+    },
+    {
+      "questionNumber": 106,
+      "score": 5
+    },
+    {
+      "questionNumber": 107,
+      "score": 4
+    },
+    {
+      "questionNumber": 108,
+      "score": 3
+    },
+    {
+      "questionNumber": 109,
+      "score": 4
+    },
+    {
+      "questionNumber": 110,
+      "score": 5
+    },
+    {
+      "questionNumber": 111,
+      "score": 2
+    },
+    {
+      "questionNumber": 112,
+      "score": 5
+    },
+    {
+      "questionNumber": 113,
+      "score": 2
+    },
+    {
+      "questionNumber": 114,
+      "score": 3
+    },
+    {
+      "questionNumber": 115,
+      "score": 1
+    },
+    {
+      "questionNumber": 116,
+      "score": 5
+    },
+    {
+      "questionNumber": 117,
+      "score": 4
+    },
+    {
+      "questionNumber": 118,
+      "score": 4
+    },
+    {
+      "questionNumber": 119,
+      "score": 3
+    },
+    {
+      "questionNumber": 120,
+      "score": 5
+    },
+    {
+      "questionNumber": 121,
+      "score": 4
+    },
+    {
+      "questionNumber": 122,
+      "score": 4
+    },
+    {
+      "questionNumber": 123,
+      "score": 1
+    },
+    {
+      "questionNumber": 124,
+      "score": 1
+    },
+    {
+      "questionNumber": 125,
+      "score": 4
+    },
+    {
+      "questionNumber": 126,
+      "score": 4
+    },
+    {
+      "questionNumber": 127,
+      "score": 4
+    },
+    {
+      "questionNumber": 128,
+      "score": 2
+    },
+    {
+      "questionNumber": 129,
+      "score": 4
+    },
+    {
+      "questionNumber": 130,
+      "score": 1
+    },
+    {
+      "questionNumber": 131,
+      "score": 1
+    },
+    {
+      "questionNumber": 132,
+      "score": 3
+    },
+    {
+      "questionNumber": 133,
+      "score": 2
+    },
+    {
+      "questionNumber": 134,
+      "score": 2
+    },
+    {
+      "questionNumber": 135,
+      "score": 4
+    },
+    {
+      "questionNumber": 136,
+      "score": 1
+    },
+    {
+      "questionNumber": 137,
+      "score": 3
+    },
+    {
+      "questionNumber": 138,
+      "score": 1
+    },
+    {
+      "questionNumber": 139,
+      "score": 2
+    },
+    {
+      "questionNumber": 140,
+      "score": 1
+    },
+    {
+      "questionNumber": 141,
+      "score": 5
+    },
+    {
+      "questionNumber": 142,
+      "score": 4
+    },
+    {
+      "questionNumber": 143,
+      "score": 5
+    },
+    {
+      "questionNumber": 144,
+      "score": 4
+    },
+    {
+      "questionNumber": 145,
+      "score": 4
+    },
+    {
+      "questionNumber": 146,
+      "score": 1
+    },
+    {
+      "questionNumber": 147,
+      "score": 3
+    },
+    {
+      "questionNumber": 148,
+      "score": 4
+    },
+    {
+      "questionNumber": 149,
+      "score": 2
+    },
+    {
+      "questionNumber": 150,
+      "score": 1
+    },
+    {
+      "questionNumber": 151,
+      "score": 1
+    },
+    {
+      "questionNumber": 152,
+      "score": 4
+    },
+    {
+      "questionNumber": 153,
+      "score": 3
+    },
+    {
+      "questionNumber": 154,
+      "score": 4
+    },
+    {
+      "questionNumber": 155,
+      "score": 1
+    },
+    {
+      "questionNumber": 156,
+      "score": 5
+    },
+    {
+      "questionNumber": 157,
+      "score": 3
+    },
+    {
+      "questionNumber": 158,
+      "score": 5
+    },
+    {
+      "questionNumber": 159,
+      "score": 1
+    },
+    {
+      "questionNumber": 160,
+      "score": 3
+    },
+    {
+      "questionNumber": 161,
+      "score": 1
+    },
+    {
+      "questionNumber": 162,
+      "score": 3
+    },
+    {
+      "questionNumber": 163,
+      "score": 4
+    },
+    {
+      "questionNumber": 164,
+      "score": 4
+    },
+    {
+      "questionNumber": 165,
+      "score": 4
+    },
+    {
+      "questionNumber": 166,
+      "score": 4
+    },
+    {
+      "questionNumber": 167,
+      "score": 3
+    },
+    {
+      "questionNumber": 168,
+      "score": 4
+    },
+    {
+      "questionNumber": 169,
+      "score": 3
+    },
+    {
+      "questionNumber": 170,
+      "score": 4
+    },
+    {
+      "questionNumber": 171,
+      "score": 1
+    },
+    {
+      "questionNumber": 172,
+      "score": 1
+    },
+    {
+      "questionNumber": 173,
+      "score": 3
+    },
+    {
+      "questionNumber": 174,
+      "score": 4
+    },
+    {
+      "questionNumber": 175,
+      "score": 2
+    },
+    {
+      "questionNumber": 176,
+      "score": 5
+    },
+    {
+      "questionNumber": 177,
+      "score": 4
+    },
+    {
+      "questionNumber": 178,
+      "score": 4
+    },
+    {
+      "questionNumber": 179,
+      "score": 4
+    },
+    {
+      "questionNumber": 180,
+      "score": 4
+    },
+    {
+      "questionNumber": 181,
+      "score": 4
+    },
+    {
+      "questionNumber": 182,
+      "score": 3
+    },
+    {
+      "questionNumber": 183,
+      "score": 5
+    },
+    {
+      "questionNumber": 184,
+      "score": 4
+    },
+    {
+      "questionNumber": 185,
+      "score": 4
+    },
+    {
+      "questionNumber": 186,
+      "score": 2
+    },
+    {
+      "questionNumber": 187,
+      "score": 2
+    },
+    {
+      "questionNumber": 188,
+      "score": 3
+    },
+    {
+      "questionNumber": 189,
+      "score": 1
+    },
+    {
+      "questionNumber": 190,
+      "score": 3
+    },
+    {
+      "questionNumber": 191,
+      "score": 1
+    },
+    {
+      "questionNumber": 192,
+      "score": 3
+    },
+    {
+      "questionNumber": 193,
+      "score": 4
+    },
+    {
+      "questionNumber": 194,
+      "score": 4
+    },
+    {
+      "questionNumber": 195,
+      "score": 3
+    },
+    {
+      "questionNumber": 196,
+      "score": 2
+    },
+    {
+      "questionNumber": 197,
+      "score": 4
+    },
+    {
+      "questionNumber": 198,
+      "score": 4
+    },
+    {
+      "questionNumber": 199,
+      "score": 3
+    },
+    {
+      "questionNumber": 200,
+      "score": 5
+    },
+    {
+      "questionNumber": 201,
+      "score": 1
+    },
+    {
+      "questionNumber": 202,
+      "score": 1
+    },
+    {
+      "questionNumber": 203,
+      "score": 5
+    },
+    {
+      "questionNumber": 204,
+      "score": 3
+    },
+    {
+      "questionNumber": 205,
+      "score": 3
+    },
+    {
+      "questionNumber": 206,
+      "score": 4
+    },
+    {
+      "questionNumber": 207,
+      "score": 4
+    },
+    {
+      "questionNumber": 208,
+      "score": 2
+    },
+    {
+      "questionNumber": 209,
+      "score": 3
+    },
+    {
+      "questionNumber": 210,
+      "score": 5
+    },
+    {
+      "questionNumber": 211,
+      "score": 2
+    },
+    {
+      "questionNumber": 212,
+      "score": 3
+    },
+    {
+      "questionNumber": 213,
+      "score": 4
+    },
+    {
+      "questionNumber": 214,
+      "score": 4
+    },
+    {
+      "questionNumber": 215,
+      "score": 4
+    },
+    {
+      "questionNumber": 216,
+      "score": 1
+    },
+    {
+      "questionNumber": 217,
+      "score": 4
+    },
+    {
+      "questionNumber": 218,
+      "score": 3
+    },
+    {
+      "questionNumber": 219,
+      "score": 1
+    },
+    {
+      "questionNumber": 220,
+      "score": 1
+    },
+    {
+      "questionNumber": 221,
+      "score": 1
+    },
+    {
+      "questionNumber": 222,
+      "score": 1
+    },
+    {
+      "questionNumber": 223,
+      "score": 3
+    },
+    {
+      "questionNumber": 224,
+      "score": 2
+    },
+    {
+      "questionNumber": 225,
+      "score": 1
+    },
+    {
+      "questionNumber": 226,
+      "score": 3
+    },
+    {
+      "questionNumber": 227,
+      "score": 3
+    },
+    {
+      "questionNumber": 228,
+      "score": 1
+    },
+    {
+      "questionNumber": 229,
+      "score": 1
+    },
+    {
+      "questionNumber": 230,
+      "score": 4
+    },
+    {
+      "questionNumber": 231,
+      "score": 5
+    },
+    {
+      "questionNumber": 232,
+      "score": 3
+    },
+    {
+      "questionNumber": 233,
+      "score": 5
+    },
+    {
+      "questionNumber": 234,
+      "score": 3
+    },
+    {
+      "questionNumber": 235,
+      "score": 5
+    },
+    {
+      "questionNumber": 236,
+      "score": 4
+    },
+    {
+      "questionNumber": 237,
+      "score": 4
+    },
+    {
+      "questionNumber": 238,
+      "score": 3
+    },
+    {
+      "questionNumber": 239,
+      "score": 3
+    },
+    {
+      "questionNumber": 240,
+      "score": 4
+    }
+  ],
+  "dimensionScores": [
+    {
+      "dimensionId": "N",
+      "dimensionName": "神经质",
+      "dimensionNameEn": "Neuroticism",
+      "rawScore": 68,
+      "percentile": 27,
+      "tScore": 44,
+      "level": "low",
+      "facetScores": [
+        {
+          "facetId": "N1",
+          "facetName": "焦虑",
+          "facetNameEn": "Anxiety",
+          "rawScore": 11,
+          "questions": [
+            1,
+            31,
+            61,
+            91,
+            121,
+            151,
+            181,
+            211
+          ]
+        },
+        {
+          "facetId": "N2",
+          "facetName": "愤怒敌意",
+          "facetNameEn": "Angry Hostility",
+          "rawScore": 13,
+          "questions": [
+            6,
+            36,
+            66,
+            96,
+            126,
+            156,
+            186,
+            216
+          ]
+        },
+        {
+          "facetId": "N3",
+          "facetName": "抑郁",
+          "facetNameEn": "Depression",
+          "rawScore": 8,
+          "questions": [
+            11,
+            41,
+            71,
+            101,
+            131,
+            161,
+            191,
+            221
+          ]
+        },
+        {
+          "facetId": "N4",
+          "facetName": "自我意识",
+          "facetNameEn": "Self-Consciousness",
+          "rawScore": 14,
+          "questions": [
+            16,
+            46,
+            76,
+            106,
+            136,
+            166,
+            196,
+            226
+          ]
+        },
+        {
+          "facetId": "N5",
+          "facetName": "冲动性",
+          "facetNameEn": "Impulsiveness",
+          "rawScore": 9,
+          "questions": [
+            21,
+            51,
+            81,
+            111,
+            141,
+            171,
+            201,
+            231
+          ]
+        },
+        {
+          "facetId": "N6",
+          "facetName": "脆弱性",
+          "facetNameEn": "Vulnerability",
+          "rawScore": 13,
+          "questions": [
+            26,
+            56,
+            86,
+            116,
+            146,
+            176,
+            206,
+            236
+          ]
+        }
+      ]
+    },
+    {
+      "dimensionId": "E",
+      "dimensionName": "外向性",
+      "dimensionNameEn": "Extraversion",
+      "rawScore": 154,
+      "percentile": 93,
+      "tScore": 65,
+      "level": "high",
+      "facetScores": [
+        {
+          "facetId": "E1",
+          "facetName": "热情性",
+          "facetNameEn": "Warmth",
+          "rawScore": 29,
+          "questions": [
+            2,
+            32,
+            62,
+            92,
+            122,
+            152,
+            182,
+            212
+          ]
+        },
+        {
+          "facetId": "E2",
+          "facetName": "乐群性",
+          "facetNameEn": "Gregariousness",
+          "rawScore": 26,
+          "questions": [
+            7,
+            37,
+            67,
+            97,
+            127,
+            157,
+            187,
+            217
+          ]
+        },
+        {
+          "facetId": "E3",
+          "facetName": "自我肯定",
+          "facetNameEn": "Assertiveness",
+          "rawScore": 27,
+          "questions": [
+            12,
+            42,
+            72,
+            102,
+            132,
+            162,
+            192,
+            222
+          ]
+        },
+        {
+          "facetId": "E4",
+          "facetName": "活跃性",
+          "facetNameEn": "Activity",
+          "rawScore": 29,
+          "questions": [
+            17,
+            47,
+            77,
+            107,
+            137,
+            167,
+            197,
+            227
+          ]
+        },
+        {
+          "facetId": "E5",
+          "facetName": "寻求刺激",
+          "facetNameEn": "Excitement-Seeking",
+          "rawScore": 16,
+          "questions": [
+            22,
+            52,
+            82,
+            112,
+            142,
+            172,
+            202,
+            232
+          ]
+        },
+        {
+          "facetId": "E6",
+          "facetName": "积极情绪",
+          "facetNameEn": "Positive Emotions",
+          "rawScore": 27,
+          "questions": [
+            27,
+            57,
+            87,
+            117,
+            147,
+            177,
+            207,
+            237
+          ]
+        }
+      ]
+    },
+    {
+      "dimensionId": "O",
+      "dimensionName": "开放性",
+      "dimensionNameEn": "Openness",
+      "rawScore": 150,
+      "percentile": 98,
+      "tScore": 70,
+      "level": "high",
+      "facetScores": [
+        {
+          "facetId": "O1",
+          "facetName": "想象力",
+          "facetNameEn": "Fantasy",
+          "rawScore": 13,
+          "questions": [
+            3,
+            33,
+            63,
+            93,
+            123,
+            153,
+            183,
+            213
+          ]
+        },
+        {
+          "facetId": "O2",
+          "facetName": "审美",
+          "facetNameEn": "Aesthetics",
+          "rawScore": 29,
+          "questions": [
+            8,
+            38,
+            68,
+            98,
+            128,
+            158,
+            188,
+            218
+          ]
+        },
+        {
+          "facetId": "O3",
+          "facetName": "情感",
+          "facetNameEn": "Feelings",
+          "rawScore": 21,
+          "questions": [
+            13,
+            43,
+            73,
+            103,
+            133,
+            163,
+            193,
+            223
+          ]
+        },
+        {
+          "facetId": "O4",
+          "facetName": "行动",
+          "facetNameEn": "Actions",
+          "rawScore": 29,
+          "questions": [
+            18,
+            48,
+            78,
+            108,
+            138,
+            168,
+            198,
+            228
+          ]
+        },
+        {
+          "facetId": "O5",
+          "facetName": "观念",
+          "facetNameEn": "Ideas",
+          "rawScore": 33,
+          "questions": [
+            23,
+            53,
+            83,
+            113,
+            143,
+            173,
+            203,
+            233
+          ]
+        },
+        {
+          "facetId": "O6",
+          "facetName": "价值",
+          "facetNameEn": "Values",
+          "rawScore": 25,
+          "questions": [
+            28,
+            58,
+            88,
+            118,
+            148,
+            178,
+            208,
+            238
+          ]
+        }
+      ]
+    },
+    {
+      "dimensionId": "A",
+      "dimensionName": "宜人性",
+      "dimensionNameEn": "Agreeableness",
+      "rawScore": 142,
+      "percentile": 95,
+      "tScore": 66,
+      "level": "high",
+      "facetScores": [
+        {
+          "facetId": "A1",
+          "facetName": "信任",
+          "facetNameEn": "Trust",
+          "rawScore": 25,
+          "questions": [
+            4,
+            34,
+            64,
+            94,
+            124,
+            154,
+            184,
+            214
+          ]
+        },
+        {
+          "facetId": "A2",
+          "facetName": "坦诚",
+          "facetNameEn": "Straightforwardness",
+          "rawScore": 17,
+          "questions": [
+            9,
+            39,
+            69,
+            99,
+            129,
+            159,
+            189,
+            219
+          ]
+        },
+        {
+          "facetId": "A3",
+          "facetName": "利他性",
+          "facetNameEn": "Altruism",
+          "rawScore": 27,
+          "questions": [
+            14,
+            44,
+            74,
+            104,
+            134,
+            164,
+            194,
+            224
+          ]
+        },
+        {
+          "facetId": "A4",
+          "facetName": "顺从性",
+          "facetNameEn": "Compliance",
+          "rawScore": 24,
+          "questions": [
+            19,
+            49,
+            79,
+            109,
+            139,
+            169,
+            199,
+            229
+          ]
+        },
+        {
+          "facetId": "A5",
+          "facetName": "谦虚",
+          "facetNameEn": "Modesty",
+          "rawScore": 25,
+          "questions": [
+            24,
+            54,
+            84,
+            114,
+            144,
+            174,
+            204,
+            234
+          ]
+        },
+        {
+          "facetId": "A6",
+          "facetName": "温存",
+          "facetNameEn": "Tender-Mindedness",
+          "rawScore": 24,
+          "questions": [
+            29,
+            59,
+            89,
+            119,
+            149,
+            179,
+            209,
+            239
+          ]
+        }
+      ]
+    },
+    {
+      "dimensionId": "C",
+      "dimensionName": "尽责性",
+      "dimensionNameEn": "Conscientiousness",
+      "rawScore": 185,
+      "percentile": 99,
+      "tScore": 85,
+      "level": "high",
+      "facetScores": [
+        {
+          "facetId": "C1",
+          "facetName": "胜任感",
+          "facetNameEn": "Competence",
+          "rawScore": 35,
+          "questions": [
+            5,
+            35,
+            65,
+            95,
+            125,
+            155,
+            185,
+            215
+          ]
+        },
+        {
+          "facetId": "C2",
+          "facetName": "条理性",
+          "facetNameEn": "Order",
+          "rawScore": 32,
+          "questions": [
+            10,
+            40,
+            70,
+            100,
+            130,
+            160,
+            190,
+            220
+          ]
+        },
+        {
+          "facetId": "C3",
+          "facetName": "责任心",
+          "facetNameEn": "Dutifulness",
+          "rawScore": 25,
+          "questions": [
+            15,
+            45,
+            75,
+            105,
+            135,
+            165,
+            195,
+            225
+          ]
+        },
+        {
+          "facetId": "C4",
+          "facetName": "事业心",
+          "facetNameEn": "Achievement Striving",
+          "rawScore": 36,
+          "questions": [
+            20,
+            50,
+            80,
+            110,
+            140,
+            170,
+            200,
+            230
+          ]
+        },
+        {
+          "facetId": "C5",
+          "facetName": "自律性",
+          "facetNameEn": "Self-Discipline",
+          "rawScore": 32,
+          "questions": [
+            25,
+            55,
+            85,
+            115,
+            145,
+            175,
+            205,
+            235
+          ]
+        },
+        {
+          "facetId": "C6",
+          "facetName": "审慎性",
+          "facetNameEn": "Deliberation",
+          "rawScore": 25,
+          "questions": [
+            30,
+            60,
+            90,
+            120,
+            150,
+            180,
+            210,
+            240
+          ]
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-01-25T07:26:19.873Z"
+}
