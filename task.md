@@ -48,22 +48,22 @@
 - [x] npm install + build + verify
 - [x] Commit & push
 
-## Phase 5: VIA Strengths (talent/via-strengths-test/)
-- [ ] Scaffold project (configs, port 5180)
-- [ ] Create question data (120 questions, 24 strengths)
-- [ ] Create strength + virtue descriptions
-- [ ] Implement ranking scoring algorithm
-- [ ] Build components (intro, test flow, question card)
-- [ ] Build results (grouped bars, top-5 podium, virtue summary)
-- [ ] npm install + build + verify
-- [ ] Commit & push
+## Phase 5: VIA Strengths (talent/via-strengths-test/) ✓
+- [x] Scaffold project (configs, port 5180)
+- [x] Create question data (120 questions, 24 strengths)
+- [x] Create strength + virtue descriptions
+- [x] Implement ranking scoring algorithm
+- [x] Build components (intro, test flow, question card)
+- [x] Build results (grouped bars, top-5 podium, virtue summary)
+- [x] npm install + build + verify
+- [x] Commit & push
 
-## Phase 6: 16PF (character/16pf-test/)
-- [ ] Scaffold project (configs, port 5178)
-- [ ] Create question data (163 questions, 16 factors)
-- [ ] Create factor descriptions (bipolar labels)
-- [ ] Implement sten scoring with reverse items
-- [ ] Build components (intro, test flow, question card)
-- [ ] Build results (16 bipolar scales, factor profiles)
-- [ ] npm install + build + verify
-- [ ] Commit & push
+## Phase 6: 16PF (character/16pf-test/) ✓
+- [x] Scaffold project (configs, port 5178)
+- [x] Create question data (163 questions, 16 factors)
+- [x] Create factor descriptions (bipolar labels)
+- [x] Implement sten scoring with reverse items
+- [x] Build components (intro, test flow, question card)
+- [x] Build results (16 bipolar scales, factor profiles)
+- [x] npm install + build + verify
+- [x] Commit & push
