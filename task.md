@@ -67,3 +67,15 @@
 - [x] Build results (16 bipolar scales, factor profiles)
 - [x] npm install + build + verify
 - [x] Commit & push
+
+## Phase 7: O*NET Interest Profiler (interest/onet-interest-profiler/) ✓
+- [x] Scaffold project (configs, port 5182)
+- [x] Create question data (60 questions, 6 RIASEC types)
+- [x] Translate official O*NET questions to Chinese
+- [x] Create type descriptions + career examples
+- [x] Implement RIASEC scoring (0-40 per type)
+- [x] Build components (intro, test flow, question card)
+- [x] Build results (hexagon radar, bars, Holland code)
+- [x] Add O*NET source attribution
+- [x] npm install + build + verify
+- [x] Commit & push

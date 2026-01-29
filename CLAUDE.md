@@ -1,7 +1,7 @@
 # HumanTests - Psychological Test Suite
 
 ## Overview
-A collection of 8 classical psychological tests for measuring **talent**, **character**, and **interest**. All built as standalone React web apps with a shared Excalidraw-style UI aesthetic.
+A collection of 9 classical psychological tests for measuring **talent**, **character**, and **interest**. All built as standalone React web apps with a shared Excalidraw-style UI aesthetic.
 
 ## Architecture
 
@@ -18,7 +18,8 @@ HumanTests/
 │   ├── dips-talent-test/    # DIPS talent - 40Q, 10 dims, port 5175
 │   └── via-strengths-test/  # VIA strengths - 120Q, 24 strengths, port 5180
 ├── interest/            # Vocational interest tests
-│   └── holland-riasec-test/ # Holland RIASEC - 60Q, 6 types, port 5181
+│   ├── holland-riasec-test/    # Holland RIASEC - 60Q, 6 types, port 5181
+│   └── onet-interest-profiler/ # O*NET Interest Profiler - 60Q, 6 types, port 5182
 └── CLAUDE.md
 ```
 
@@ -59,10 +60,11 @@ cd <category>/<test-name> && npm run build
 - Every test intro page cites its source with a hyperlink
 - All questions are in Chinese
 - localStorage key pattern: `<test-name>-progress`
-- Ports: 5174-5181 (one per test)
+- Ports: 5174-5182 (one per test)
 
 ## Question Sources
 All from public domain or open-source:
-- IPIP (ipip.ori.org) — BigFive, 16PF, RIASEC, VIA
+- IPIP (ipip.ori.org) — BigFive, 16PF, Holland RIASEC, VIA
+- O*NET Center (onetcenter.org) — O*NET Interest Profiler
 - OpenPsychometrics — DISC (ODAT)
 - Open-source implementations — MBTI, Enneagram
