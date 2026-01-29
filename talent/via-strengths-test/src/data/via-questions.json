@@ -1,0 +1,604 @@
+{
+  "questions": [
+    {
+      "number": 1,
+      "text": "我对学习新知识充满好奇心",
+      "strengthId": "curiosity"
+    },
+    {
+      "number": 2,
+      "text": "我喜欢探索不熟悉的事物",
+      "strengthId": "curiosity"
+    },
+    {
+      "number": 3,
+      "text": "我总是问很多问题以更好地理解事物",
+      "strengthId": "curiosity"
+    },
+    {
+      "number": 4,
+      "text": "我享受探究事物运作原理的过程",
+      "strengthId": "curiosity"
+    },
+    {
+      "number": 5,
+      "text": "我对周围的世界充满好奇",
+      "strengthId": "curiosity"
+    },
+    {
+      "number": 6,
+      "text": "我总是在寻找机会学习新技能",
+      "strengthId": "love_of_learning"
+    },
+    {
+      "number": 7,
+      "text": "我喜欢参加课程、研讨会或培训",
+      "strengthId": "love_of_learning"
+    },
+    {
+      "number": 8,
+      "text": "我会主动深入研究感兴趣的主题",
+      "strengthId": "love_of_learning"
+    },
+    {
+      "number": 9,
+      "text": "学习新东西让我感到兴奋",
+      "strengthId": "love_of_learning"
+    },
+    {
+      "number": 10,
+      "text": "我喜欢阅读来扩展自己的知识",
+      "strengthId": "love_of_learning"
+    },
+    {
+      "number": 11,
+      "text": "我能从多个角度思考问题",
+      "strengthId": "judgment"
+    },
+    {
+      "number": 12,
+      "text": "我在做决定前会仔细权衡所有选项",
+      "strengthId": "judgment"
+    },
+    {
+      "number": 13,
+      "text": "我善于批判性地分析信息",
+      "strengthId": "judgment"
+    },
+    {
+      "number": 14,
+      "text": "我不会轻易接受表面信息",
+      "strengthId": "judgment"
+    },
+    {
+      "number": 15,
+      "text": "我能公正客观地评估情况",
+      "strengthId": "judgment"
+    },
+    {
+      "number": 16,
+      "text": "我经常想出新颖独特的点子",
+      "strengthId": "creativity"
+    },
+    {
+      "number": 17,
+      "text": "我喜欢用创新的方式解决问题",
+      "strengthId": "creativity"
+    },
+    {
+      "number": 18,
+      "text": "我能找到做事的新方法",
+      "strengthId": "creativity"
+    },
+    {
+      "number": 19,
+      "text": "我的想法常常与众不同",
+      "strengthId": "creativity"
+    },
+    {
+      "number": 20,
+      "text": "我享受创造性的活动",
+      "strengthId": "creativity"
+    },
+    {
+      "number": 21,
+      "text": "人们常常向我寻求建议",
+      "strengthId": "perspective"
+    },
+    {
+      "number": 22,
+      "text": "我能看到事物的全局",
+      "strengthId": "perspective"
+    },
+    {
+      "number": 23,
+      "text": "我能帮助他人看清问题的本质",
+      "strengthId": "perspective"
+    },
+    {
+      "number": 24,
+      "text": "我擅长为他人提供明智的建议",
+      "strengthId": "perspective"
+    },
+    {
+      "number": 25,
+      "text": "我对生活有深刻的理解",
+      "strengthId": "perspective"
+    },
+    {
+      "number": 26,
+      "text": "即使感到害怕,我也会做正确的事",
+      "strengthId": "bravery"
+    },
+    {
+      "number": 27,
+      "text": "我勇于面对困难和挑战",
+      "strengthId": "bravery"
+    },
+    {
+      "number": 28,
+      "text": "我不会因为别人的反对而放弃立场",
+      "strengthId": "bravery"
+    },
+    {
+      "number": 29,
+      "text": "我敢于为自己的信念发声",
+      "strengthId": "bravery"
+    },
+    {
+      "number": 30,
+      "text": "我在逆境中保持勇气",
+      "strengthId": "bravery"
+    },
+    {
+      "number": 31,
+      "text": "我会坚持完成开始的事情",
+      "strengthId": "perseverance"
+    },
+    {
+      "number": 32,
+      "text": "遇到障碍时我不会轻易放弃",
+      "strengthId": "perseverance"
+    },
+    {
+      "number": 33,
+      "text": "我能长期专注于达成目标",
+      "strengthId": "perseverance"
+    },
+    {
+      "number": 34,
+      "text": "我是一个勤奋努力的人",
+      "strengthId": "perseverance"
+    },
+    {
+      "number": 35,
+      "text": "即使任务很困难,我也会坚持到底",
+      "strengthId": "perseverance"
+    },
+    {
+      "number": 36,
+      "text": "我总是诚实待人",
+      "strengthId": "honesty"
+    },
+    {
+      "number": 37,
+      "text": "我真实地展现自己",
+      "strengthId": "honesty"
+    },
+    {
+      "number": 38,
+      "text": "我会承认自己的错误",
+      "strengthId": "honesty"
+    },
+    {
+      "number": 39,
+      "text": "我对自己的感受和动机很坦诚",
+      "strengthId": "honesty"
+    },
+    {
+      "number": 40,
+      "text": "人们信任我是因为我值得信赖",
+      "strengthId": "honesty"
+    },
+    {
+      "number": 41,
+      "text": "我对生活充满热情和活力",
+      "strengthId": "zest"
+    },
+    {
+      "number": 42,
+      "text": "我以饱满的精力投入每一天",
+      "strengthId": "zest"
+    },
+    {
+      "number": 43,
+      "text": "我是一个充满活力的人",
+      "strengthId": "zest"
+    },
+    {
+      "number": 44,
+      "text": "我热情地对待生活中的活动",
+      "strengthId": "zest"
+    },
+    {
+      "number": 45,
+      "text": "我很少感到无精打采",
+      "strengthId": "zest"
+    },
+    {
+      "number": 46,
+      "text": "我珍视与他人的亲密关系",
+      "strengthId": "love"
+    },
+    {
+      "number": 47,
+      "text": "我与他人建立深厚的情感联系",
+      "strengthId": "love"
+    },
+    {
+      "number": 48,
+      "text": "我能给予他人真诚的爱",
+      "strengthId": "love"
+    },
+    {
+      "number": 49,
+      "text": "我愿意向他人敞开心扉",
+      "strengthId": "love"
+    },
+    {
+      "number": 50,
+      "text": "我生活中有深刻的爱的关系",
+      "strengthId": "love"
+    },
+    {
+      "number": 51,
+      "text": "我乐于帮助他人",
+      "strengthId": "kindness"
+    },
+    {
+      "number": 52,
+      "text": "我经常为他人做好事",
+      "strengthId": "kindness"
+    },
+    {
+      "number": 53,
+      "text": "照顾他人让我感到快乐",
+      "strengthId": "kindness"
+    },
+    {
+      "number": 54,
+      "text": "我会主动关心他人的需要",
+      "strengthId": "kindness"
+    },
+    {
+      "number": 55,
+      "text": "我对他人充满同情心",
+      "strengthId": "kindness"
+    },
+    {
+      "number": 56,
+      "text": "我能敏锐地察觉他人的情绪",
+      "strengthId": "social_intelligence"
+    },
+    {
+      "number": 57,
+      "text": "我理解人们行为背后的动机",
+      "strengthId": "social_intelligence"
+    },
+    {
+      "number": 58,
+      "text": "我知道如何融入不同的社交场合",
+      "strengthId": "social_intelligence"
+    },
+    {
+      "number": 59,
+      "text": "我擅长理解他人的感受",
+      "strengthId": "social_intelligence"
+    },
+    {
+      "number": 60,
+      "text": "我能轻松与各种人相处",
+      "strengthId": "social_intelligence"
+    },
+    {
+      "number": 61,
+      "text": "我是一个优秀的团队成员",
+      "strengthId": "teamwork"
+    },
+    {
+      "number": 62,
+      "text": "我总是为团队的利益着想",
+      "strengthId": "teamwork"
+    },
+    {
+      "number": 63,
+      "text": "我忠于我的团队和组织",
+      "strengthId": "teamwork"
+    },
+    {
+      "number": 64,
+      "text": "我在团队中与他人合作良好",
+      "strengthId": "teamwork"
+    },
+    {
+      "number": 65,
+      "text": "我会为团队的成功尽自己的力量",
+      "strengthId": "teamwork"
+    },
+    {
+      "number": 66,
+      "text": "我公平对待每个人",
+      "strengthId": "fairness"
+    },
+    {
+      "number": 67,
+      "text": "我不会让个人偏见影响判断",
+      "strengthId": "fairness"
+    },
+    {
+      "number": 68,
+      "text": "我相信每个人都应该得到公正的待遇",
+      "strengthId": "fairness"
+    },
+    {
+      "number": 69,
+      "text": "我会为那些被不公正对待的人发声",
+      "strengthId": "fairness"
+    },
+    {
+      "number": 70,
+      "text": "我在做决定时考虑所有人的利益",
+      "strengthId": "fairness"
+    },
+    {
+      "number": 71,
+      "text": "我善于组织团队活动",
+      "strengthId": "leadership"
+    },
+    {
+      "number": 72,
+      "text": "我能激励他人朝向目标努力",
+      "strengthId": "leadership"
+    },
+    {
+      "number": 73,
+      "text": "人们愿意跟随我的引导",
+      "strengthId": "leadership"
+    },
+    {
+      "number": 74,
+      "text": "我在团队中自然地承担领导角色",
+      "strengthId": "leadership"
+    },
+    {
+      "number": 75,
+      "text": "我擅长协调团队成员的工作",
+      "strengthId": "leadership"
+    },
+    {
+      "number": 76,
+      "text": "我能原谅伤害过我的人",
+      "strengthId": "forgiveness"
+    },
+    {
+      "number": 77,
+      "text": "我不会长时间对他人怀恨在心",
+      "strengthId": "forgiveness"
+    },
+    {
+      "number": 78,
+      "text": "我相信给予他人第二次机会",
+      "strengthId": "forgiveness"
+    },
+    {
+      "number": 79,
+      "text": "我不会一直记着他人的过错",
+      "strengthId": "forgiveness"
+    },
+    {
+      "number": 80,
+      "text": "我能放下怨恨继续前进",
+      "strengthId": "forgiveness"
+    },
+    {
+      "number": 81,
+      "text": "我不会过分强调自己的成就",
+      "strengthId": "humility"
+    },
+    {
+      "number": 82,
+      "text": "我承认自己的不完美",
+      "strengthId": "humility"
+    },
+    {
+      "number": 83,
+      "text": "我不需要成为关注的焦点",
+      "strengthId": "humility"
+    },
+    {
+      "number": 84,
+      "text": "我认可他人的贡献",
+      "strengthId": "humility"
+    },
+    {
+      "number": 85,
+      "text": "我以低调的方式对待自己的才能",
+      "strengthId": "humility"
+    },
+    {
+      "number": 86,
+      "text": "我在做重要决定前会三思而行",
+      "strengthId": "prudence"
+    },
+    {
+      "number": 87,
+      "text": "我会仔细考虑行动的后果",
+      "strengthId": "prudence"
+    },
+    {
+      "number": 88,
+      "text": "我是一个谨慎小心的人",
+      "strengthId": "prudence"
+    },
+    {
+      "number": 89,
+      "text": "我不会做可能后悔的事情",
+      "strengthId": "prudence"
+    },
+    {
+      "number": 90,
+      "text": "我会为未来做好规划",
+      "strengthId": "prudence"
+    },
+    {
+      "number": 91,
+      "text": "我能控制自己的冲动",
+      "strengthId": "self_regulation"
+    },
+    {
+      "number": 92,
+      "text": "我善于管理自己的情绪",
+      "strengthId": "self_regulation"
+    },
+    {
+      "number": 93,
+      "text": "我能坚持健康的习惯",
+      "strengthId": "self_regulation"
+    },
+    {
+      "number": 94,
+      "text": "我是一个自律的人",
+      "strengthId": "self_regulation"
+    },
+    {
+      "number": 95,
+      "text": "我能抵制诱惑",
+      "strengthId": "self_regulation"
+    },
+    {
+      "number": 96,
+      "text": "我能欣赏生活中的美好事物",
+      "strengthId": "appreciation"
+    },
+    {
+      "number": 97,
+      "text": "我注意到周围环境的美",
+      "strengthId": "appreciation"
+    },
+    {
+      "number": 98,
+      "text": "我对艺术和自然之美很敏感",
+      "strengthId": "appreciation"
+    },
+    {
+      "number": 99,
+      "text": "我欣赏他人的优秀表现",
+      "strengthId": "appreciation"
+    },
+    {
+      "number": 100,
+      "text": "我能在日常生活中发现美",
+      "strengthId": "appreciation"
+    },
+    {
+      "number": 101,
+      "text": "我对生活中的美好事物心怀感激",
+      "strengthId": "gratitude"
+    },
+    {
+      "number": 102,
+      "text": "我会表达对他人的感谢",
+      "strengthId": "gratitude"
+    },
+    {
+      "number": 103,
+      "text": "我总能找到值得感恩的事情",
+      "strengthId": "gratitude"
+    },
+    {
+      "number": 104,
+      "text": "我从不认为好事是理所当然的",
+      "strengthId": "gratitude"
+    },
+    {
+      "number": 105,
+      "text": "我经常想起生活中值得感激的人和事",
+      "strengthId": "gratitude"
+    },
+    {
+      "number": 106,
+      "text": "我对未来充满希望",
+      "strengthId": "hope"
+    },
+    {
+      "number": 107,
+      "text": "我相信事情会向好的方向发展",
+      "strengthId": "hope"
+    },
+    {
+      "number": 108,
+      "text": "我是一个乐观的人",
+      "strengthId": "hope"
+    },
+    {
+      "number": 109,
+      "text": "我期待美好的未来",
+      "strengthId": "hope"
+    },
+    {
+      "number": 110,
+      "text": "即使遇到困难,我也保持积极的态度",
+      "strengthId": "hope"
+    },
+    {
+      "number": 111,
+      "text": "我喜欢让他人发笑",
+      "strengthId": "humor"
+    },
+    {
+      "number": 112,
+      "text": "我能看到生活中的趣味",
+      "strengthId": "humor"
+    },
+    {
+      "number": 113,
+      "text": "我用幽默来应对困难",
+      "strengthId": "humor"
+    },
+    {
+      "number": 114,
+      "text": "我善于营造轻松愉快的氛围",
+      "strengthId": "humor"
+    },
+    {
+      "number": 115,
+      "text": "我经常开玩笑",
+      "strengthId": "humor"
+    },
+    {
+      "number": 116,
+      "text": "我对生命的意义有深刻的思考",
+      "strengthId": "spirituality"
+    },
+    {
+      "number": 117,
+      "text": "我相信生活有更高的目的",
+      "strengthId": "spirituality"
+    },
+    {
+      "number": 118,
+      "text": "我的信仰影响着我的行为",
+      "strengthId": "spirituality"
+    },
+    {
+      "number": 119,
+      "text": "我感受到与更伟大事物的联系",
+      "strengthId": "spirituality"
+    },
+    {
+      "number": 120,
+      "text": "我有清晰的人生哲学",
+      "strengthId": "spirituality"
+    }
+  ]
+}

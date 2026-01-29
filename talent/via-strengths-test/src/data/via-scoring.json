@@ -1,0 +1,216 @@
+{
+  "strengths": {
+    "curiosity": {
+      "strengthId": "curiosity",
+      "strengthName": "好奇心",
+      "strengthNameEn": "Curiosity",
+      "virtue": "wisdom",
+      "color": "#6366F1"
+    },
+    "love_of_learning": {
+      "strengthId": "love_of_learning",
+      "strengthName": "热爱学习",
+      "strengthNameEn": "Love of Learning",
+      "virtue": "wisdom",
+      "color": "#8B5CF6"
+    },
+    "judgment": {
+      "strengthId": "judgment",
+      "strengthName": "判断力",
+      "strengthNameEn": "Judgment",
+      "virtue": "wisdom",
+      "color": "#A855F7"
+    },
+    "creativity": {
+      "strengthId": "creativity",
+      "strengthName": "创造力",
+      "strengthNameEn": "Creativity",
+      "virtue": "wisdom",
+      "color": "#C084FC"
+    },
+    "perspective": {
+      "strengthId": "perspective",
+      "strengthName": "洞察力",
+      "strengthNameEn": "Perspective",
+      "virtue": "wisdom",
+      "color": "#D8B4FE"
+    },
+    "bravery": {
+      "strengthId": "bravery",
+      "strengthName": "勇敢",
+      "strengthNameEn": "Bravery",
+      "virtue": "courage",
+      "color": "#EF4444"
+    },
+    "perseverance": {
+      "strengthId": "perseverance",
+      "strengthName": "坚毅",
+      "strengthNameEn": "Perseverance",
+      "virtue": "courage",
+      "color": "#F97316"
+    },
+    "honesty": {
+      "strengthId": "honesty",
+      "strengthName": "诚实",
+      "strengthNameEn": "Honesty",
+      "virtue": "courage",
+      "color": "#F59E0B"
+    },
+    "zest": {
+      "strengthId": "zest",
+      "strengthName": "热情",
+      "strengthNameEn": "Zest",
+      "virtue": "courage",
+      "color": "#FBBF24"
+    },
+    "love": {
+      "strengthId": "love",
+      "strengthName": "爱",
+      "strengthNameEn": "Love",
+      "virtue": "humanity",
+      "color": "#EC4899"
+    },
+    "kindness": {
+      "strengthId": "kindness",
+      "strengthName": "善良",
+      "strengthNameEn": "Kindness",
+      "virtue": "humanity",
+      "color": "#F472B6"
+    },
+    "social_intelligence": {
+      "strengthId": "social_intelligence",
+      "strengthName": "社交智慧",
+      "strengthNameEn": "Social Intelligence",
+      "virtue": "humanity",
+      "color": "#F9A8D4"
+    },
+    "teamwork": {
+      "strengthId": "teamwork",
+      "strengthName": "团队协作",
+      "strengthNameEn": "Teamwork",
+      "virtue": "justice",
+      "color": "#3B82F6"
+    },
+    "fairness": {
+      "strengthId": "fairness",
+      "strengthName": "公平",
+      "strengthNameEn": "Fairness",
+      "virtue": "justice",
+      "color": "#60A5FA"
+    },
+    "leadership": {
+      "strengthId": "leadership",
+      "strengthName": "领导力",
+      "strengthNameEn": "Leadership",
+      "virtue": "justice",
+      "color": "#93C5FD"
+    },
+    "forgiveness": {
+      "strengthId": "forgiveness",
+      "strengthName": "宽恕",
+      "strengthNameEn": "Forgiveness",
+      "virtue": "temperance",
+      "color": "#10B981"
+    },
+    "humility": {
+      "strengthId": "humility",
+      "strengthName": "谦逊",
+      "strengthNameEn": "Humility",
+      "virtue": "temperance",
+      "color": "#34D399"
+    },
+    "prudence": {
+      "strengthId": "prudence",
+      "strengthName": "审慎",
+      "strengthNameEn": "Prudence",
+      "virtue": "temperance",
+      "color": "#6EE7B7"
+    },
+    "self_regulation": {
+      "strengthId": "self_regulation",
+      "strengthName": "自律",
+      "strengthNameEn": "Self-Regulation",
+      "virtue": "temperance",
+      "color": "#A7F3D0"
+    },
+    "appreciation": {
+      "strengthId": "appreciation",
+      "strengthName": "审美",
+      "strengthNameEn": "Appreciation of Beauty",
+      "virtue": "transcendence",
+      "color": "#14B8A6"
+    },
+    "gratitude": {
+      "strengthId": "gratitude",
+      "strengthName": "感恩",
+      "strengthNameEn": "Gratitude",
+      "virtue": "transcendence",
+      "color": "#2DD4BF"
+    },
+    "hope": {
+      "strengthId": "hope",
+      "strengthName": "希望",
+      "strengthNameEn": "Hope",
+      "virtue": "transcendence",
+      "color": "#5EEAD4"
+    },
+    "humor": {
+      "strengthId": "humor",
+      "strengthName": "幽默",
+      "strengthNameEn": "Humor",
+      "virtue": "transcendence",
+      "color": "#99F6E4"
+    },
+    "spirituality": {
+      "strengthId": "spirituality",
+      "strengthName": "灵性",
+      "strengthNameEn": "Spirituality",
+      "virtue": "transcendence",
+      "color": "#CCFBF1"
+    }
+  },
+  "virtues": {
+    "wisdom": {
+      "virtueId": "wisdom",
+      "virtueName": "智慧",
+      "virtueNameEn": "Wisdom & Knowledge",
+      "description": "获取和运用知识的认知优势",
+      "strengths": ["curiosity", "love_of_learning", "judgment", "creativity", "perspective"]
+    },
+    "courage": {
+      "virtueId": "courage",
+      "virtueNameEn": "Courage",
+      "virtueName": "勇气",
+      "description": "面对内外部困难时坚持目标的情感优势",
+      "strengths": ["bravery", "perseverance", "honesty", "zest"]
+    },
+    "humanity": {
+      "virtueId": "humanity",
+      "virtueNameEn": "Humanity",
+      "virtueName": "仁爱",
+      "description": "关心和友善他人的人际优势",
+      "strengths": ["love", "kindness", "social_intelligence"]
+    },
+    "justice": {
+      "virtueId": "justice",
+      "virtueNameEn": "Justice",
+      "virtueName": "正义",
+      "description": "支持健康社群生活的公民优势",
+      "strengths": ["teamwork", "fairness", "leadership"]
+    },
+    "temperance": {
+      "virtueId": "temperance",
+      "virtueNameEn": "Temperance",
+      "virtueName": "节制",
+      "description": "防止过度的保护性优势",
+      "strengths": ["forgiveness", "humility", "prudence", "self_regulation"]
+    },
+    "transcendence": {
+      "virtueId": "transcendence",
+      "virtueNameEn": "Transcendence",
+      "virtueName": "超越",
+      "description": "连接更宏大宇宙并提供意义的优势",
+      "strengths": ["appreciation", "gratitude", "hope", "humor", "spirituality"]
+    }
+  }
+}

@@ -1,0 +1,628 @@
+{
+  "profiles": {
+    "curiosity": {
+      "strengthId": "curiosity",
+      "strengthName": "好奇心",
+      "strengthNameEn": "Curiosity",
+      "virtue": "wisdom",
+      "description": "对周围世界充满兴趣,对新事物持开放态度,喜欢探索和发现。不满足于表面知识,总是想要深入了解事物的本质和运作原理。",
+      "benefits": [
+        "促进持续学习和个人成长",
+        "增强问题解决能力",
+        "提高适应新环境的能力",
+        "保持思维活跃和心理年轻"
+      ],
+      "examples": [
+        "主动研究不熟悉的话题",
+        "提出深入的问题以理解事物",
+        "尝试新的体验和活动",
+        "探索不同的观点和视角"
+      ],
+      "waysToDevelop": [
+        "每天学习一个新知识或技能",
+        "阅读不同领域的书籍和文章",
+        "参观博物馆、展览或新地方",
+        "向不同背景的人请教",
+        "培养'为什么'和'如何'的提问习惯"
+      ]
+    },
+    "love_of_learning": {
+      "strengthId": "love_of_learning",
+      "strengthName": "热爱学习",
+      "strengthNameEn": "Love of Learning",
+      "virtue": "wisdom",
+      "description": "享受学习新技能、知识和能力的过程。无论是在正式课堂还是自学环境中,都对掌握新事物充满热情。",
+      "benefits": [
+        "保持竞争力和职业发展",
+        "增强自信和自我效能感",
+        "丰富生活体验和兴趣",
+        "延缓认知衰退"
+      ],
+      "examples": [
+        "主动参加课程和培训",
+        "深入钻研感兴趣的主题",
+        "建立系统的学习计划",
+        "享受阅读和学习的过程"
+      ],
+      "waysToDevelop": [
+        "设定具体的学习目标",
+        "加入学习小组或社群",
+        "尝试在线课程和MOOCs",
+        "记录学习笔记和心得",
+        "教授他人以巩固知识"
+      ]
+    },
+    "judgment": {
+      "strengthId": "judgment",
+      "strengthName": "判断力",
+      "strengthNameEn": "Judgment",
+      "virtue": "wisdom",
+      "description": "善于批判性思考,能从多个角度审视问题。在做决定前会仔细权衡证据,不轻易被表面信息或偏见影响。",
+      "benefits": [
+        "做出明智的决策",
+        "避免常见的思维陷阱",
+        "更客观地评估情况",
+        "增强说服力和可信度"
+      ],
+      "examples": [
+        "分析信息的可靠性和来源",
+        "考虑问题的多个方面",
+        "识别论证中的逻辑漏洞",
+        "在判断前寻求更多证据"
+      ],
+      "waysToDevelop": [
+        "学习批判性思维技巧",
+        "练习识别认知偏见",
+        "参与辩论和理性讨论",
+        "在做决定前列出利弊",
+        "反思过去的决策和教训"
+      ]
+    },
+    "creativity": {
+      "strengthId": "creativity",
+      "strengthName": "创造力",
+      "strengthNameEn": "Creativity",
+      "virtue": "wisdom",
+      "description": "能产生新颖独特的想法,善于找到创新的方法来解决问题或完成任务。思维不局限于传统方式。",
+      "benefits": [
+        "提供独特的问题解决方案",
+        "增强工作和生活的趣味性",
+        "推动创新和进步",
+        "表达个人独特性"
+      ],
+      "examples": [
+        "提出原创的想法和观点",
+        "用新方法解决老问题",
+        "创作艺术或文学作品",
+        "设计创新的产品或服务"
+      ],
+      "waysToDevelop": [
+        "练习头脑风暴和发散思维",
+        "尝试不同的艺术创作",
+        "跨领域学习和思考",
+        "给自己设置创意挑战",
+        "记录灵感和创意想法"
+      ]
+    },
+    "perspective": {
+      "strengthId": "perspective",
+      "strengthName": "洞察力",
+      "strengthNameEn": "Perspective",
+      "virtue": "wisdom",
+      "description": "能看到事物的全局和深层含义,为他人提供明智的建议。对生活有深刻的理解,能帮助他人看清问题的本质。",
+      "benefits": [
+        "成为他人信赖的顾问",
+        "做出长远的决策",
+        "理解复杂情况的本质",
+        "帮助他人解决困惑"
+      ],
+      "examples": [
+        "为朋友提供深刻的建议",
+        "看到表面问题背后的真相",
+        "整合不同信息形成整体观点",
+        "帮助他人理清思路"
+      ],
+      "waysToDevelop": [
+        "积累丰富的人生经验",
+        "学习哲学和心理学",
+        "倾听和理解他人的故事",
+        "反思生活中的经验教训",
+        "培养系统思考能力"
+      ]
+    },
+    "bravery": {
+      "strengthId": "bravery",
+      "strengthName": "勇敢",
+      "strengthNameEn": "Bravery",
+      "virtue": "courage",
+      "description": "面对恐惧、威胁或困难时仍能坚持做正确的事。不因他人反对或外部压力而放弃自己的立场和信念。",
+      "benefits": [
+        "坚守原则和价值观",
+        "面对挑战时保持冷静",
+        "赢得他人的尊重",
+        "实现个人成长和突破"
+      ],
+      "examples": [
+        "为正义发声即使不受欢迎",
+        "面对困难不退缩",
+        "承担必要的风险",
+        "在压力下坚持信念"
+      ],
+      "waysToDevelop": [
+        "识别并面对自己的恐惧",
+        "从小挑战开始逐步提升",
+        "寻找榜样和支持",
+        "练习在压力下保持镇定",
+        "反思勇敢行为的积极结果"
+      ]
+    },
+    "perseverance": {
+      "strengthId": "perseverance",
+      "strengthName": "坚毅",
+      "strengthNameEn": "Perseverance",
+      "virtue": "courage",
+      "description": "坚持完成开始的事情,即使遇到障碍也不轻易放弃。能够长期专注于目标,展现出持续的努力和决心。",
+      "benefits": [
+        "实现长期目标",
+        "建立可靠的声誉",
+        "克服困难获得成就",
+        "增强自我效能感"
+      ],
+      "examples": [
+        "完成困难的长期项目",
+        "克服障碍达成目标",
+        "在挫折后继续努力",
+        "保持专注和纪律"
+      ],
+      "waysToDevelop": [
+        "设定清晰的长期目标",
+        "将大目标分解为小步骤",
+        "建立支持系统和问责机制",
+        "庆祝阶段性进展",
+        "从失败中学习而非放弃"
+      ]
+    },
+    "honesty": {
+      "strengthId": "honesty",
+      "strengthName": "诚实",
+      "strengthNameEn": "Honesty",
+      "virtue": "courage",
+      "description": "说真话,真实地展现自己。对自己的感受和动机坦诚,承认错误,值得信赖。",
+      "benefits": [
+        "建立深厚的信任关系",
+        "减少内心冲突和压力",
+        "赢得他人的尊重",
+        "保持内心的一致性"
+      ],
+      "examples": [
+        "即使不利也说实话",
+        "承认自己的错误",
+        "真实表达自己的观点",
+        "言行一致"
+      ],
+      "waysToDevelop": [
+        "练习在小事上保持诚实",
+        "反思撒谎的动机",
+        "创造安全的表达环境",
+        "欣赏诚实带来的长期好处",
+        "对自己的价值观保持真实"
+      ]
+    },
+    "zest": {
+      "strengthId": "zest",
+      "strengthName": "热情",
+      "strengthNameEn": "Zest",
+      "virtue": "courage",
+      "description": "对生活充满热情和活力,以饱满的精力投入活动。很少感到无精打采,总是精力充沛。",
+      "benefits": [
+        "提高工作效率和表现",
+        "感染和激励他人",
+        "更充分地享受生活",
+        "增强身心健康"
+      ],
+      "examples": [
+        "精力充沛地投入工作",
+        "对新活动充满兴奋",
+        "保持积极的生活态度",
+        "传递正能量给他人"
+      ],
+      "waysToDevelop": [
+        "保持规律的运动习惯",
+        "充足的睡眠和营养",
+        "从事自己热爱的活动",
+        "设定激动人心的目标",
+        "与积极的人相处"
+      ]
+    },
+    "love": {
+      "strengthId": "love",
+      "strengthName": "爱",
+      "strengthNameEn": "Love",
+      "virtue": "humanity",
+      "description": "珍视与他人的亲密关系,能够给予和接受真诚的爱。与他人建立深厚的情感联系,愿意敞开心扉。",
+      "benefits": [
+        "获得深刻的情感满足",
+        "建立稳固的支持网络",
+        "提升幸福感和生活质量",
+        "促进身心健康"
+      ],
+      "examples": [
+        "与家人保持亲密关系",
+        "建立深厚的友谊",
+        "在恋爱关系中投入真心",
+        "向他人表达爱和关怀"
+      ],
+      "waysToDevelop": [
+        "花时间与重要的人相处",
+        "练习表达爱和感激",
+        "培养情感上的脆弱性",
+        "积极倾听和理解他人",
+        "参与增进关系的活动"
+      ]
+    },
+    "kindness": {
+      "strengthId": "kindness",
+      "strengthName": "善良",
+      "strengthNameEn": "Kindness",
+      "virtue": "humanity",
+      "description": "乐于帮助他人,经常为他人做好事。照顾他人让自己感到快乐,对他人充满同情心。",
+      "benefits": [
+        "增进人际关系质量",
+        "提升个人幸福感",
+        "创造积极的社会影响",
+        "获得内心的满足"
+      ],
+      "examples": [
+        "主动帮助有需要的人",
+        "对他人展现同情和理解",
+        "做志愿服务",
+        "在日常中施以小善"
+      ],
+      "waysToDevelop": [
+        "每天做一件善事",
+        "培养同理心和换位思考",
+        "参与慈善和志愿活动",
+        "关注他人的需求",
+        "练习随机的善举"
+      ]
+    },
+    "social_intelligence": {
+      "strengthId": "social_intelligence",
+      "strengthName": "社交智慧",
+      "strengthNameEn": "Social Intelligence",
+      "virtue": "humanity",
+      "description": "能敏锐地察觉他人的情绪和动机,理解社交情境的微妙之处。知道如何融入不同的场合,擅长与各种人相处。",
+      "benefits": [
+        "建立有效的人际关系",
+        "在团队中更好地协作",
+        "避免和化解冲突",
+        "在社交场合更加自如"
+      ],
+      "examples": [
+        "准确读懂他人的情绪",
+        "适应不同的社交环境",
+        "理解社交互动的潜台词",
+        "有效地与不同性格的人沟通"
+      ],
+      "waysToDevelop": [
+        "观察和分析社交互动",
+        "学习肢体语言和非言语信号",
+        "练习情绪识别",
+        "扩展社交圈子",
+        "寻求关于社交表现的反馈"
+      ]
+    },
+    "teamwork": {
+      "strengthId": "teamwork",
+      "strengthName": "团队协作",
+      "strengthNameEn": "Teamwork",
+      "virtue": "justice",
+      "description": "是优秀的团队成员,总是为团队利益着想。忠于团队和组织,与他人合作良好,为团队成功尽力。",
+      "benefits": [
+        "提高团队效率和成果",
+        "建立良好的工作关系",
+        "获得集体的支持",
+        "创造协作的文化"
+      ],
+      "examples": [
+        "积极为团队目标贡献",
+        "支持和帮助团队成员",
+        "将团队利益置于个人之上",
+        "促进团队凝聚力"
+      ],
+      "waysToDevelop": [
+        "主动参与团队活动",
+        "练习有效的团队沟通",
+        "认可他人的贡献",
+        "学习冲突解决技巧",
+        "培养集体责任感"
+      ]
+    },
+    "fairness": {
+      "strengthId": "fairness",
+      "strengthName": "公平",
+      "strengthNameEn": "Fairness",
+      "virtue": "justice",
+      "description": "公平对待每个人,不让个人偏见影响判断。相信人人应得到公正待遇,为被不公对待的人发声。",
+      "benefits": [
+        "建立公正的环境",
+        "赢得他人的信任和尊重",
+        "促进社会正义",
+        "保持道德的一致性"
+      ],
+      "examples": [
+        "客观公正地对待所有人",
+        "反对歧视和不公",
+        "在决策中考虑所有人利益",
+        "为弱势群体发声"
+      ],
+      "waysToDevelop": [
+        "识别和克服自身偏见",
+        "学习不同群体的视角",
+        "在决策中寻求公正原则",
+        "支持公平的制度和政策",
+        "反思特权和不平等"
+      ]
+    },
+    "leadership": {
+      "strengthId": "leadership",
+      "strengthName": "领导力",
+      "strengthNameEn": "Leadership",
+      "virtue": "justice",
+      "description": "善于组织团队活动,能激励他人朝向目标努力。人们愿意跟随引导,自然地承担领导角色。",
+      "benefits": [
+        "推动团队达成目标",
+        "发挥更大的影响力",
+        "帮助他人成长",
+        "创造积极的变化"
+      ],
+      "examples": [
+        "组织和协调团队工作",
+        "设定清晰的愿景和目标",
+        "激励和启发团队成员",
+        "在关键时刻做出决策"
+      ],
+      "waysToDevelop": [
+        "寻求领导机会和责任",
+        "学习领导理论和技巧",
+        "培养情商和沟通能力",
+        "向优秀领导者学习",
+        "寻求关于领导表现的反馈"
+      ]
+    },
+    "forgiveness": {
+      "strengthId": "forgiveness",
+      "strengthName": "宽恕",
+      "strengthNameEn": "Forgiveness",
+      "virtue": "temperance",
+      "description": "能原谅伤害过自己的人,不长时间怀恨在心。相信给予他人第二次机会,能放下怨恨继续前进。",
+      "benefits": [
+        "减少内心的痛苦和压力",
+        "修复和改善关系",
+        "提升心理健康",
+        "打破报复循环"
+      ],
+      "examples": [
+        "放下对他人的怨恨",
+        "给犯错的人第二次机会",
+        "不反复提及过去的伤害",
+        "理解他人的不完美"
+      ],
+      "waysToDevelop": [
+        "练习换位思考",
+        "理解宽恕是为自己",
+        "处理和表达受伤的情绪",
+        "寻求专业帮助如需要",
+        "培养同情心和理解"
+      ]
+    },
+    "humility": {
+      "strengthId": "humility",
+      "strengthName": "谦逊",
+      "strengthNameEn": "Humility",
+      "virtue": "temperance",
+      "description": "不过分强调自己的成就,承认自己的不完美。不需要成为关注焦点,认可他人的贡献。",
+      "benefits": [
+        "建立真诚的人际关系",
+        "保持持续学习的心态",
+        "避免傲慢带来的问题",
+        "更客观地自我评估"
+      ],
+      "examples": [
+        "低调对待自己的成就",
+        "承认错误和不足",
+        "认可他人的功劳",
+        "愿意向他人学习"
+      ],
+      "waysToDevelop": [
+        "练习感激他人的帮助",
+        "反思自己的局限性",
+        "倾听他人的意见",
+        "关注他人的需求而非自我",
+        "避免过度自我宣传"
+      ]
+    },
+    "prudence": {
+      "strengthId": "prudence",
+      "strengthName": "审慎",
+      "strengthNameEn": "Prudence",
+      "virtue": "temperance",
+      "description": "在做重要决定前三思而行,仔细考虑行动的后果。谨慎小心,不做可能后悔的事,为未来做好规划。",
+      "benefits": [
+        "避免不必要的风险",
+        "做出更好的长期决策",
+        "减少后悔和错误",
+        "保护自己和他人"
+      ],
+      "examples": [
+        "在行动前评估风险",
+        "考虑决策的长期影响",
+        "避免冲动行为",
+        "制定周密的计划"
+      ],
+      "waysToDevelop": [
+        "在决策前暂停思考",
+        "列出潜在的后果",
+        "咨询有经验的人",
+        "从过去的错误中学习",
+        "平衡谨慎与行动"
+      ]
+    },
+    "self_regulation": {
+      "strengthId": "self_regulation",
+      "strengthName": "自律",
+      "strengthNameEn": "Self-Regulation",
+      "virtue": "temperance",
+      "description": "能控制自己的冲动,善于管理情绪。坚持健康的习惯,能抵制诱惑,是一个自律的人。",
+      "benefits": [
+        "达成个人目标",
+        "保持健康的生活方式",
+        "减少冲动带来的问题",
+        "增强意志力"
+      ],
+      "examples": [
+        "坚持锻炼和健康饮食",
+        "控制情绪反应",
+        "抵制即时诱惑",
+        "保持良好的习惯"
+      ],
+      "waysToDevelop": [
+        "设定明确的规则和界限",
+        "建立支持自律的环境",
+        "练习延迟满足",
+        "使用自我监控工具",
+        "逐步提高自我控制"
+      ]
+    },
+    "appreciation": {
+      "strengthId": "appreciation",
+      "strengthName": "审美",
+      "strengthNameEn": "Appreciation of Beauty",
+      "virtue": "transcendence",
+      "description": "能欣赏生活中的美好事物,注意周围环境的美。对艺术和自然之美敏感,能在日常中发现美。",
+      "benefits": [
+        "增强生活的丰富性",
+        "提升情绪和幸福感",
+        "培养敏锐的感知力",
+        "连接更深层的体验"
+      ],
+      "examples": [
+        "欣赏艺术、音乐、自然",
+        "注意日常中的美好细节",
+        "被优秀表现所感动",
+        "寻求美的体验"
+      ],
+      "waysToDevelop": [
+        "定期接触艺术和自然",
+        "练习正念和当下觉察",
+        "学习艺术欣赏",
+        "记录美好的瞬间",
+        "放慢脚步体验美"
+      ]
+    },
+    "gratitude": {
+      "strengthId": "gratitude",
+      "strengthName": "感恩",
+      "strengthNameEn": "Gratitude",
+      "virtue": "transcendence",
+      "description": "对生活中的美好事物心怀感激,表达对他人的感谢。总能找到值得感恩的事,不认为好事理所当然。",
+      "benefits": [
+        "显著提升幸福感",
+        "改善人际关系",
+        "增强心理韧性",
+        "促进积极情绪"
+      ],
+      "examples": [
+        "表达对他人的感谢",
+        "欣赏生活中的小确幸",
+        "记录感恩的事情",
+        "不把好事视为理所当然"
+      ],
+      "waysToDevelop": [
+        "写感恩日记",
+        "向他人表达感谢",
+        "反思生活中的幸运",
+        "关注拥有而非缺乏",
+        "培养感恩的习惯"
+      ]
+    },
+    "hope": {
+      "strengthId": "hope",
+      "strengthName": "希望",
+      "strengthNameEn": "Hope",
+      "virtue": "transcendence",
+      "description": "对未来充满希望,相信事情会向好的方向发展。是乐观的人,期待美好未来,即使困难时也保持积极。",
+      "benefits": [
+        "增强面对困难的韧性",
+        "提升动力和目标追求",
+        "改善心理和身体健康",
+        "影响和激励他人"
+      ],
+      "examples": [
+        "对未来保持积极期待",
+        "在困难中看到机会",
+        "相信努力会有回报",
+        "保持乐观的态度"
+      ],
+      "waysToDevelop": [
+        "设定有意义的目标",
+        "关注积极的可能性",
+        "挑战消极思维",
+        "回顾过去克服困难的经历",
+        "与乐观的人相处"
+      ]
+    },
+    "humor": {
+      "strengthId": "humor",
+      "strengthName": "幽默",
+      "strengthNameEn": "Humor",
+      "virtue": "transcendence",
+      "description": "喜欢让他人发笑,能看到生活中的趣味。用幽默应对困难,善于营造轻松愉快的氛围。",
+      "benefits": [
+        "缓解压力和紧张",
+        "增进人际关系",
+        "提升团队氛围",
+        "保持积极的心态"
+      ],
+      "examples": [
+        "用幽默化解尴尬",
+        "讲笑话让他人开心",
+        "在困难中保持轻松",
+        "看到事物的有趣面"
+      ],
+      "waysToDevelop": [
+        "学习幽默的技巧",
+        "不过于严肃对待自己",
+        "观看喜剧和幽默内容",
+        "练习自嘲和轻松态度",
+        "在适当时机使用幽默"
+      ]
+    },
+    "spirituality": {
+      "strengthId": "spirituality",
+      "strengthName": "灵性",
+      "strengthNameEn": "Spirituality",
+      "virtue": "transcendence",
+      "description": "对生命的意义有深刻思考,相信生活有更高的目的。信仰影响行为,感受到与更伟大事物的联系。",
+      "benefits": [
+        "提供生命的意义和方向",
+        "在困难时给予慰藉",
+        "促进内心的平静",
+        "连接更大的整体"
+      ],
+      "examples": [
+        "思考人生的意义",
+        "按照价值观和信仰生活",
+        "感受到精神层面的连接",
+        "从精神实践中获得力量"
+      ],
+      "waysToDevelop": [
+        "探索不同的精神传统",
+        "练习冥想或祈祷",
+        "反思生命的意义",
+        "参与精神社群",
+        "在自然中寻求连接"
+      ]
+    }
+  }
+}

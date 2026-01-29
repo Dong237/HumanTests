@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FAFAFA;
+}
+
+@layer components {
+  .excalidraw-button {
+    @apply px-6 py-3 rounded-xl font-medium transition-all duration-200;
+    @apply border-3 border-gray-800;
+    @apply hover:translate-y-[-2px] hover:shadow-lg;
+    @apply active:translate-y-[0px];
+  }
+
+  .excalidraw-card {
+    @apply bg-white rounded-2xl p-6 border-2 border-gray-800;
+    @apply shadow-[4px_4px_0px_0px_rgba(0,0,0,1)];
+  }
+
+  .progress-bar {
+    @apply h-4 bg-gray-200 rounded-full border-2 border-gray-800;
+  }
+
+  .progress-fill {
+    @apply h-full rounded-full border-r-2 border-gray-800 transition-all duration-300;
+  }
+
+  /* Virtue gradient classes */
+  .virtue-gradient-wisdom {
+    @apply bg-gradient-to-br from-indigo-400 to-indigo-600;
+  }
+
+  .virtue-gradient-courage {
+    @apply bg-gradient-to-br from-red-400 to-red-600;
+  }
+
+  .virtue-gradient-humanity {
+    @apply bg-gradient-to-br from-pink-400 to-pink-600;
+  }
+
+  .virtue-gradient-justice {
+    @apply bg-gradient-to-br from-blue-400 to-blue-600;
+  }
+
+  .virtue-gradient-temperance {
+    @apply bg-gradient-to-br from-teal-400 to-teal-600;
+  }
+
+  .virtue-gradient-transcendence {
+    @apply bg-gradient-to-br from-purple-400 to-purple-600;
+  }
+}

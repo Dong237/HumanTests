@@ -1,0 +1,222 @@
+{
+  "welcome": {
+    "title": "VIA性格优势测试",
+    "subtitle": "发现您的核心优势，释放您的潜能",
+    "tagline": "基于积极心理学，识别您的24种性格优势与标志性优势"
+  },
+  "overview": {
+    "title": "关于VIA性格优势测试",
+    "description": "VIA性格优势测试是由积极心理学先驱Martin Seligman和Christopher Peterson领导开发的科学测评工具。该测试识别个人在24种普世性格优势上的特点,这些优势被归类为6大美德:智慧、勇气、仁爱、正义、节制和超越。",
+    "features": [
+      "120道题目,全面评估24种性格优势",
+      "识别您的前5大标志性优势(Signature Strengths)",
+      "基于积极心理学研究的科学框架",
+      "提供详细的优势档案和发展建议",
+      "可视化呈现您的优势分布图",
+      "支持PDF导出和结果保存"
+    ]
+  },
+  "viaModel": {
+    "title": "六大美德与24种性格优势",
+    "description": "VIA分类系统将24种性格优势归类为6大美德类别，每种美德包含多项相关优势：",
+    "virtues": [
+      {
+        "id": "wisdom",
+        "name": "智慧与知识",
+        "icon": "🧠",
+        "description": "涉及获取和使用知识的认知优势",
+        "strengths": "好奇心、热爱学习、判断力、创造力、洞察力"
+      },
+      {
+        "id": "courage",
+        "name": "勇气",
+        "icon": "💪",
+        "description": "面对内外阻力时实现目标的情感优势",
+        "strengths": "勇敢、坚毅、诚实、热情"
+      },
+      {
+        "id": "humanity",
+        "name": "仁爱",
+        "icon": "❤️",
+        "description": "照顾和与他人建立友谊的人际优势",
+        "strengths": "爱、善良、社交智慧"
+      },
+      {
+        "id": "justice",
+        "name": "正义",
+        "icon": "⚖️",
+        "description": "构建健康社区生活的公民优势",
+        "strengths": "团队协作、公平、领导力"
+      },
+      {
+        "id": "temperance",
+        "name": "节制",
+        "icon": "🎯",
+        "description": "防止过度的优势",
+        "strengths": "宽恕、谦逊、审慎、自律"
+      },
+      {
+        "id": "transcendence",
+        "name": "超越",
+        "icon": "✨",
+        "description": "建立与更广阔宇宙联系和提供意义的优势",
+        "strengths": "审美、感恩、希望、幽默、灵性"
+      }
+    ]
+  },
+  "signatureStrengths": {
+    "title": "什么是标志性优势?",
+    "description": "标志性优势(Signature Strengths)是指您得分最高的前5项优势。这些是最能代表您核心特质的优势,具有以下特点:",
+    "characteristics": [
+      "感觉真实和本质:这就是真正的我",
+      "使用时充满活力:感到兴奋和投入",
+      "快速学习:很容易掌握相关技能",
+      "持续使用:经常在生活中运用",
+      "渴望表达:寻找机会展现这些优势"
+    ]
+  },
+  "howToTake": {
+    "title": "如何完成测试",
+    "instructions": [
+      {
+        "step": 1,
+        "title": "保持真实",
+        "description": "请根据您的实际情况作答，而非理想状态或社会期望。",
+        "tip": "诚实作答最重要，没有对错之分"
+      },
+      {
+        "step": 2,
+        "title": "仔细评估",
+        "description": "认真阅读每道题目，选择最符合您日常表现的选项。",
+        "tip": "避免过度思考，凭第一感觉作答"
+      },
+      {
+        "step": 3,
+        "title": "自动保存",
+        "description": "测试进度会自动保存到本地，您可以随时继续。",
+        "tip": "完成测试约需15-20分钟"
+      }
+    ],
+    "likertScale": {
+      "title": "评分标准 (Likert 5点量表)",
+      "description": "每道题目使用5点量表评分，请选择最符合您的选项：",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不符合",
+          "when": "完全不像我，几乎从不如此"
+        },
+        {
+          "value": 2,
+          "label": "不太符合",
+          "when": "不太像我，偶尔如此"
+        },
+        {
+          "value": 3,
+          "label": "中等符合",
+          "when": "有时像我，有时不像"
+        },
+        {
+          "value": 4,
+          "label": "比较符合",
+          "when": "比较像我，经常如此"
+        },
+        {
+          "value": 5,
+          "label": "非常符合",
+          "when": "完全像我，总是如此"
+        }
+      ]
+    }
+  },
+  "whatToExpect": {
+    "title": "您将获得什么",
+    "sections": [
+      {
+        "icon": "🏆",
+        "title": "标志性优势识别",
+        "description": "发现您最突出的前5大优势，这些是最能代表您的核心特质"
+      },
+      {
+        "icon": "📊",
+        "title": "完整优势档案",
+        "description": "24种性格优势的完整排名和详细分析"
+      },
+      {
+        "icon": "🎨",
+        "title": "可视化图表",
+        "description": "直观的图表展示您的优势分布和美德类别得分"
+      },
+      {
+        "icon": "💡",
+        "title": "发展建议",
+        "description": "基于您的优势特点提供个性化的发展建议"
+      }
+    ],
+    "timeEstimate": {
+      "description": "预计完成时间",
+      "min": 15,
+      "max": 20
+    }
+  },
+  "privacy": {
+    "title": "隐私与数据安全",
+    "assurances": [
+      "所有测试数据仅保存在您的本地浏览器中",
+      "我们不会收集、存储或传输您的任何个人信息",
+      "您可以随时清除浏览器数据来删除测试记录",
+      "测试结果仅供您个人参考使用"
+    ],
+    "note": "您的隐私安全是我们的首要关注"
+  },
+  "disclaimer": {
+    "title": "重要提示",
+    "points": [
+      {
+        "type": "warning",
+        "content": "本测试仅供个人了解和发展参考，不能替代专业的心理评估"
+      },
+      {
+        "type": "info",
+        "content": "结果反映您当前的自我报告，可能随时间和情境变化"
+      },
+      {
+        "type": "info",
+        "content": "建议结合多种方式全面了解自己的性格优势"
+      }
+    ]
+  },
+  "readyToStart": {
+    "title": "准备好开始了吗?",
+    "checklist": [
+      "您有15-20分钟不被打扰的时间",
+      "找一个安静舒适的环境",
+      "保持放松和开放的心态",
+      "准备好诚实地面对真实的自己"
+    ],
+    "encouragement": "研究表明，识别并在日常生活中更多地使用标志性优势，能够显著提升幸福感、生活满意度和工作表现。让我们开始探索您的性格优势吧！",
+    "buttonText": "开始测试"
+  },
+  "scientificBasis": {
+    "title": "科学背景与研究基础",
+    "development": "VIA分类系统是通过对世界各地文化和哲学传统的广泛研究开发而成，代表了普遍认可的积极人格特质。",
+    "validation": "该测试已被翻译成多种语言，全球超过1600万人完成，是积极心理学领域最权威的性格优势测评工具之一。",
+    "applications": [
+      "个人成长与自我认知",
+      "职业发展与生涯规划",
+      "教育与人才培养",
+      "心理咨询与治疗",
+      "团队建设与组织发展",
+      "积极心理学研究"
+    ],
+    "references": [
+      "Peterson, C., & Seligman, M. E. P. (2004). Character strengths and virtues: A handbook and classification. Oxford University Press.",
+      "Park, N., Peterson, C., & Seligman, M. E. P. (2004). Strengths of character and well-being. Journal of Social and Clinical Psychology, 23(5), 603-619.",
+      "McGrath, R. E. (2019). Technical report: The VIA Assessment Suite for Adults. VIA Institute on Character."
+    ],
+    "source": {
+      "name": "IPIP-VIA公开项目库",
+      "url": "https://ipip.ori.org/newVIAKey.htm"
+    }
+  }
+}

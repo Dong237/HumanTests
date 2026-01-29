@@ -1,0 +1,982 @@
+{
+  "questions": [
+    {
+      "number": 1,
+      "text": "我喜欢参加社交聚会",
+      "factorId": "A",
+      "isReverse": false
+    },
+    {
+      "number": 2,
+      "text": "我能轻松理解抽象概念",
+      "factorId": "B",
+      "isReverse": false
+    },
+    {
+      "number": 3,
+      "text": "我经常感到情绪波动",
+      "factorId": "C",
+      "isReverse": true
+    },
+    {
+      "number": 4,
+      "text": "我喜欢主导和领导他人",
+      "factorId": "E",
+      "isReverse": false
+    },
+    {
+      "number": 5,
+      "text": "我是一个活泼开朗的人",
+      "factorId": "F",
+      "isReverse": false
+    },
+    {
+      "number": 6,
+      "text": "我严格遵守规则和纪律",
+      "factorId": "G",
+      "isReverse": false
+    },
+    {
+      "number": 7,
+      "text": "我在社交场合感到自在",
+      "factorId": "H",
+      "isReverse": false
+    },
+    {
+      "number": 8,
+      "text": "我容易被感动和触动",
+      "factorId": "I",
+      "isReverse": false
+    },
+    {
+      "number": 9,
+      "text": "我对他人保持警惕和怀疑",
+      "factorId": "L",
+      "isReverse": false
+    },
+    {
+      "number": 10,
+      "text": "我经常沉浸在自己的想象中",
+      "factorId": "M",
+      "isReverse": false
+    },
+    {
+      "number": 11,
+      "text": "我倾向于隐藏自己的真实想法",
+      "factorId": "N",
+      "isReverse": false
+    },
+    {
+      "number": 12,
+      "text": "我经常担心可能出错的事情",
+      "factorId": "O",
+      "isReverse": false
+    },
+    {
+      "number": 13,
+      "text": "我喜欢尝试新事物和新想法",
+      "factorId": "Q1",
+      "isReverse": false
+    },
+    {
+      "number": 14,
+      "text": "我更喜欢独立工作而非团队合作",
+      "factorId": "Q2",
+      "isReverse": false
+    },
+    {
+      "number": 15,
+      "text": "我追求完美和精确",
+      "factorId": "Q3",
+      "isReverse": false
+    },
+    {
+      "number": 16,
+      "text": "我经常感到紧张和压力",
+      "factorId": "Q4",
+      "isReverse": false
+    },
+    {
+      "number": 17,
+      "text": "我对他人的感受很敏感",
+      "factorId": "A",
+      "isReverse": false
+    },
+    {
+      "number": 18,
+      "text": "我擅长解决复杂的问题",
+      "factorId": "B",
+      "isReverse": false
+    },
+    {
+      "number": 19,
+      "text": "我能很好地应对压力",
+      "factorId": "C",
+      "isReverse": false
+    },
+    {
+      "number": 20,
+      "text": "我倾向于让别人做决定",
+      "factorId": "E",
+      "isReverse": true
+    },
+    {
+      "number": 21,
+      "text": "我喜欢开玩笑和逗乐他人",
+      "factorId": "F",
+      "isReverse": false
+    },
+    {
+      "number": 22,
+      "text": "我认为规则是可以灵活变通的",
+      "factorId": "G",
+      "isReverse": true
+    },
+    {
+      "number": 23,
+      "text": "我在陌生人面前感到羞怯",
+      "factorId": "H",
+      "isReverse": true
+    },
+    {
+      "number": 24,
+      "text": "我做决定时更依赖逻辑而非感觉",
+      "factorId": "I",
+      "isReverse": true
+    },
+    {
+      "number": 25,
+      "text": "我相信大多数人是善良的",
+      "factorId": "L",
+      "isReverse": true
+    },
+    {
+      "number": 26,
+      "text": "我注重实际和现实",
+      "factorId": "M",
+      "isReverse": true
+    },
+    {
+      "number": 27,
+      "text": "我待人真诚直率",
+      "factorId": "N",
+      "isReverse": true
+    },
+    {
+      "number": 28,
+      "text": "我对自己的能力充满信心",
+      "factorId": "O",
+      "isReverse": true
+    },
+    {
+      "number": 29,
+      "text": "我更喜欢传统的做事方式",
+      "factorId": "Q1",
+      "isReverse": true
+    },
+    {
+      "number": 30,
+      "text": "我喜欢有人陪伴和支持",
+      "factorId": "Q2",
+      "isReverse": true
+    },
+    {
+      "number": 31,
+      "text": "我对细节不太在意",
+      "factorId": "Q3",
+      "isReverse": true
+    },
+    {
+      "number": 32,
+      "text": "我通常感到轻松和平静",
+      "factorId": "Q4",
+      "isReverse": true
+    },
+    {
+      "number": 33,
+      "text": "我喜欢与他人建立深厚的友谊",
+      "factorId": "A",
+      "isReverse": false
+    },
+    {
+      "number": 34,
+      "text": "我学习新知识很快",
+      "factorId": "B",
+      "isReverse": false
+    },
+    {
+      "number": 35,
+      "text": "我容易感到沮丧和失望",
+      "factorId": "C",
+      "isReverse": true
+    },
+    {
+      "number": 36,
+      "text": "我喜欢控制局面",
+      "factorId": "E",
+      "isReverse": false
+    },
+    {
+      "number": 37,
+      "text": "我经常充满热情和活力",
+      "factorId": "F",
+      "isReverse": false
+    },
+    {
+      "number": 38,
+      "text": "我认为道德标准应该严格遵守",
+      "factorId": "G",
+      "isReverse": false
+    },
+    {
+      "number": 39,
+      "text": "我敢于在公众面前发言",
+      "factorId": "H",
+      "isReverse": false
+    },
+    {
+      "number": 40,
+      "text": "我喜欢艺术和美的事物",
+      "factorId": "I",
+      "isReverse": false
+    },
+    {
+      "number": 41,
+      "text": "我怀疑他人的动机",
+      "factorId": "L",
+      "isReverse": false
+    },
+    {
+      "number": 42,
+      "text": "我经常走神和分心",
+      "factorId": "M",
+      "isReverse": false
+    },
+    {
+      "number": 43,
+      "text": "我善于掩饰自己的情绪",
+      "factorId": "N",
+      "isReverse": false
+    },
+    {
+      "number": 44,
+      "text": "我经常感到不安和焦虑",
+      "factorId": "O",
+      "isReverse": false
+    },
+    {
+      "number": 45,
+      "text": "我对新观念持开放态度",
+      "factorId": "Q1",
+      "isReverse": false
+    },
+    {
+      "number": 46,
+      "text": "我喜欢自己做决定",
+      "factorId": "Q2",
+      "isReverse": false
+    },
+    {
+      "number": 47,
+      "text": "我做事有条理和计划",
+      "factorId": "Q3",
+      "isReverse": false
+    },
+    {
+      "number": 48,
+      "text": "我容易感到烦躁不安",
+      "factorId": "Q4",
+      "isReverse": false
+    },
+    {
+      "number": 49,
+      "text": "我倾向于独来独往",
+      "factorId": "A",
+      "isReverse": true
+    },
+    {
+      "number": 50,
+      "text": "我难以理解复杂的理论",
+      "factorId": "B",
+      "isReverse": true
+    },
+    {
+      "number": 51,
+      "text": "我情绪稳定,很少烦恼",
+      "factorId": "C",
+      "isReverse": false
+    },
+    {
+      "number": 52,
+      "text": "我倾向于顺从他人的意见",
+      "factorId": "E",
+      "isReverse": true
+    },
+    {
+      "number": 53,
+      "text": "我是个严肃认真的人",
+      "factorId": "F",
+      "isReverse": true
+    },
+    {
+      "number": 54,
+      "text": "我认为有时打破规则是可以接受的",
+      "factorId": "G",
+      "isReverse": true
+    },
+    {
+      "number": 55,
+      "text": "我在大庭广众下感到紧张",
+      "factorId": "H",
+      "isReverse": true
+    },
+    {
+      "number": 56,
+      "text": "我更重视理性分析而非情感",
+      "factorId": "I",
+      "isReverse": true
+    },
+    {
+      "number": 57,
+      "text": "我倾向于信任他人",
+      "factorId": "L",
+      "isReverse": true
+    },
+    {
+      "number": 58,
+      "text": "我是个脚踏实地的人",
+      "factorId": "M",
+      "isReverse": true
+    },
+    {
+      "number": 59,
+      "text": "我说话直接坦率",
+      "factorId": "N",
+      "isReverse": true
+    },
+    {
+      "number": 60,
+      "text": "我很少为未来担心",
+      "factorId": "O",
+      "isReverse": true
+    },
+    {
+      "number": 61,
+      "text": "我尊重传统和习俗",
+      "factorId": "Q1",
+      "isReverse": true
+    },
+    {
+      "number": 62,
+      "text": "我需要他人的指导和建议",
+      "factorId": "Q2",
+      "isReverse": true
+    },
+    {
+      "number": 63,
+      "text": "我做事比较随性",
+      "factorId": "Q3",
+      "isReverse": true
+    },
+    {
+      "number": 64,
+      "text": "我是个放松自在的人",
+      "factorId": "Q4",
+      "isReverse": true
+    },
+    {
+      "number": 65,
+      "text": "我关心他人的福祉",
+      "factorId": "A",
+      "isReverse": false
+    },
+    {
+      "number": 66,
+      "text": "我喜欢思考哲学问题",
+      "factorId": "B",
+      "isReverse": false
+    },
+    {
+      "number": 67,
+      "text": "我经常感到情绪低落",
+      "factorId": "C",
+      "isReverse": true
+    },
+    {
+      "number": 68,
+      "text": "我喜欢在团队中担任领导角色",
+      "factorId": "E",
+      "isReverse": false
+    },
+    {
+      "number": 69,
+      "text": "我喜欢热闹和兴奋的活动",
+      "factorId": "F",
+      "isReverse": false
+    },
+    {
+      "number": 70,
+      "text": "我有很强的责任感",
+      "factorId": "G",
+      "isReverse": false
+    },
+    {
+      "number": 71,
+      "text": "我不怕冒险和挑战",
+      "factorId": "H",
+      "isReverse": false
+    },
+    {
+      "number": 72,
+      "text": "我容易感同身受",
+      "factorId": "I",
+      "isReverse": false
+    },
+    {
+      "number": 73,
+      "text": "我认为他人可能会利用我",
+      "factorId": "L",
+      "isReverse": false
+    },
+    {
+      "number": 74,
+      "text": "我喜欢幻想和白日梦",
+      "factorId": "M",
+      "isReverse": false
+    },
+    {
+      "number": 75,
+      "text": "我懂得察言观色",
+      "factorId": "N",
+      "isReverse": false
+    },
+    {
+      "number": 76,
+      "text": "我经常自我怀疑",
+      "factorId": "O",
+      "isReverse": false
+    },
+    {
+      "number": 77,
+      "text": "我喜欢挑战传统观念",
+      "factorId": "Q1",
+      "isReverse": false
+    },
+    {
+      "number": 78,
+      "text": "我更喜欢独自完成任务",
+      "factorId": "Q2",
+      "isReverse": false
+    },
+    {
+      "number": 79,
+      "text": "我注重细节和准确性",
+      "factorId": "Q3",
+      "isReverse": false
+    },
+    {
+      "number": 80,
+      "text": "我容易感到不耐烦",
+      "factorId": "Q4",
+      "isReverse": false
+    },
+    {
+      "number": 81,
+      "text": "我对他人不太感兴趣",
+      "factorId": "A",
+      "isReverse": true
+    },
+    {
+      "number": 82,
+      "text": "我思维敏捷",
+      "factorId": "B",
+      "isReverse": false
+    },
+    {
+      "number": 83,
+      "text": "我能保持冷静和镇定",
+      "factorId": "C",
+      "isReverse": false
+    },
+    {
+      "number": 84,
+      "text": "我不喜欢指挥他人",
+      "factorId": "E",
+      "isReverse": true
+    },
+    {
+      "number": 85,
+      "text": "我性格内敛沉稳",
+      "factorId": "F",
+      "isReverse": true
+    },
+    {
+      "number": 86,
+      "text": "我认为规则过于束缚",
+      "factorId": "G",
+      "isReverse": true
+    },
+    {
+      "number": 87,
+      "text": "我在人群中感到自信",
+      "factorId": "H",
+      "isReverse": false
+    },
+    {
+      "number": 88,
+      "text": "我做决定时重视客观事实",
+      "factorId": "I",
+      "isReverse": true
+    },
+    {
+      "number": 89,
+      "text": "我对他人的意图持开放态度",
+      "factorId": "L",
+      "isReverse": true
+    },
+    {
+      "number": 90,
+      "text": "我专注于手头的工作",
+      "factorId": "M",
+      "isReverse": true
+    },
+    {
+      "number": 91,
+      "text": "我表里如一",
+      "factorId": "N",
+      "isReverse": true
+    },
+    {
+      "number": 92,
+      "text": "我对自己的表现有信心",
+      "factorId": "O",
+      "isReverse": true
+    },
+    {
+      "number": 93,
+      "text": "我倾向于保守和谨慎",
+      "factorId": "Q1",
+      "isReverse": true
+    },
+    {
+      "number": 94,
+      "text": "我喜欢与他人合作",
+      "factorId": "Q2",
+      "isReverse": true
+    },
+    {
+      "number": 95,
+      "text": "我对工作标准要求不高",
+      "factorId": "Q3",
+      "isReverse": true
+    },
+    {
+      "number": 96,
+      "text": "我心态平和",
+      "factorId": "Q4",
+      "isReverse": true
+    },
+    {
+      "number": 97,
+      "text": "我善于与人交往",
+      "factorId": "A",
+      "isReverse": false
+    },
+    {
+      "number": 98,
+      "text": "我理解能力强",
+      "factorId": "B",
+      "isReverse": false
+    },
+    {
+      "number": 99,
+      "text": "我容易受挫",
+      "factorId": "C",
+      "isReverse": true
+    },
+    {
+      "number": 100,
+      "text": "我喜欢说服和影响他人",
+      "factorId": "E",
+      "isReverse": false
+    },
+    {
+      "number": 101,
+      "text": "我充满乐观和正能量",
+      "factorId": "F",
+      "isReverse": false
+    },
+    {
+      "number": 102,
+      "text": "我遵守社会规范",
+      "factorId": "G",
+      "isReverse": false
+    },
+    {
+      "number": 103,
+      "text": "我不怕与陌生人交谈",
+      "factorId": "H",
+      "isReverse": false
+    },
+    {
+      "number": 104,
+      "text": "我重视人际关系的和谐",
+      "factorId": "I",
+      "isReverse": false
+    },
+    {
+      "number": 105,
+      "text": "我对他人的话持怀疑态度",
+      "factorId": "L",
+      "isReverse": false
+    },
+    {
+      "number": 106,
+      "text": "我经常思考未来的可能性",
+      "factorId": "M",
+      "isReverse": false
+    },
+    {
+      "number": 107,
+      "text": "我善于隐藏自己的想法",
+      "factorId": "N",
+      "isReverse": false
+    },
+    {
+      "number": 108,
+      "text": "我容易感到内疚",
+      "factorId": "O",
+      "isReverse": false
+    },
+    {
+      "number": 109,
+      "text": "我欢迎变革和创新",
+      "factorId": "Q1",
+      "isReverse": false
+    },
+    {
+      "number": 110,
+      "text": "我依靠自己的判断",
+      "factorId": "Q2",
+      "isReverse": false
+    },
+    {
+      "number": 111,
+      "text": "我力求事事完美",
+      "factorId": "Q3",
+      "isReverse": false
+    },
+    {
+      "number": 112,
+      "text": "我经常感到急躁",
+      "factorId": "Q4",
+      "isReverse": false
+    },
+    {
+      "number": 113,
+      "text": "我不太关注他人的需求",
+      "factorId": "A",
+      "isReverse": true
+    },
+    {
+      "number": 114,
+      "text": "我学习抽象概念有困难",
+      "factorId": "B",
+      "isReverse": true
+    },
+    {
+      "number": 115,
+      "text": "我情绪平稳",
+      "factorId": "C",
+      "isReverse": false
+    },
+    {
+      "number": 116,
+      "text": "我不喜欢竞争",
+      "factorId": "E",
+      "isReverse": true
+    },
+    {
+      "number": 117,
+      "text": "我比较安静内向",
+      "factorId": "F",
+      "isReverse": true
+    },
+    {
+      "number": 118,
+      "text": "我质疑既定的规则",
+      "factorId": "G",
+      "isReverse": true
+    },
+    {
+      "number": 119,
+      "text": "我在社交场合感到局促",
+      "factorId": "H",
+      "isReverse": true
+    },
+    {
+      "number": 120,
+      "text": "我更相信理性而非情感",
+      "factorId": "I",
+      "isReverse": true
+    },
+    {
+      "number": 121,
+      "text": "我相信他人是真诚的",
+      "factorId": "L",
+      "isReverse": true
+    },
+    {
+      "number": 122,
+      "text": "我活在当下",
+      "factorId": "M",
+      "isReverse": true
+    },
+    {
+      "number": 123,
+      "text": "我坦率表达自己的观点",
+      "factorId": "N",
+      "isReverse": true
+    },
+    {
+      "number": 124,
+      "text": "我对自己很满意",
+      "factorId": "O",
+      "isReverse": true
+    },
+    {
+      "number": 125,
+      "text": "我偏好熟悉的方式",
+      "factorId": "Q1",
+      "isReverse": true
+    },
+    {
+      "number": 126,
+      "text": "我喜欢寻求他人的意见",
+      "factorId": "Q2",
+      "isReverse": true
+    },
+    {
+      "number": 127,
+      "text": "我不拘小节",
+      "factorId": "Q3",
+      "isReverse": true
+    },
+    {
+      "number": 128,
+      "text": "我很少感到压力",
+      "factorId": "Q4",
+      "isReverse": true
+    },
+    {
+      "number": 129,
+      "text": "我喜欢帮助他人",
+      "factorId": "A",
+      "isReverse": false
+    },
+    {
+      "number": 130,
+      "text": "我能快速掌握新概念",
+      "factorId": "B",
+      "isReverse": false
+    },
+    {
+      "number": 131,
+      "text": "我经常心情不好",
+      "factorId": "C",
+      "isReverse": true
+    },
+    {
+      "number": 132,
+      "text": "我倾向于主导对话",
+      "factorId": "E",
+      "isReverse": false
+    },
+    {
+      "number": 133,
+      "text": "我喜欢欢乐的氛围",
+      "factorId": "F",
+      "isReverse": false
+    },
+    {
+      "number": 134,
+      "text": "我坚守道德原则",
+      "factorId": "G",
+      "isReverse": false
+    },
+    {
+      "number": 135,
+      "text": "我勇于表达自己的观点",
+      "factorId": "H",
+      "isReverse": false
+    },
+    {
+      "number": 136,
+      "text": "我对他人的痛苦感同身受",
+      "factorId": "I",
+      "isReverse": false
+    },
+    {
+      "number": 137,
+      "text": "我警惕他人可能的欺骗",
+      "factorId": "L",
+      "isReverse": false
+    },
+    {
+      "number": 138,
+      "text": "我脑子里常有奇思妙想",
+      "factorId": "M",
+      "isReverse": false
+    },
+    {
+      "number": 139,
+      "text": "我善于社交技巧",
+      "factorId": "N",
+      "isReverse": false
+    },
+    {
+      "number": 140,
+      "text": "我经常感到不够好",
+      "factorId": "O",
+      "isReverse": false
+    },
+    {
+      "number": 141,
+      "text": "我对新想法充满好奇",
+      "factorId": "Q1",
+      "isReverse": false
+    },
+    {
+      "number": 142,
+      "text": "我喜欢按自己的方式做事",
+      "factorId": "Q2",
+      "isReverse": false
+    },
+    {
+      "number": 143,
+      "text": "我做事井井有条",
+      "factorId": "Q3",
+      "isReverse": false
+    },
+    {
+      "number": 144,
+      "text": "我容易感到焦躁",
+      "factorId": "Q4",
+      "isReverse": false
+    },
+    {
+      "number": 145,
+      "text": "我对他人冷淡疏远",
+      "factorId": "A",
+      "isReverse": true
+    },
+    {
+      "number": 146,
+      "text": "我思考问题深入透彻",
+      "factorId": "B",
+      "isReverse": false
+    },
+    {
+      "number": 147,
+      "text": "我能很好地控制情绪",
+      "factorId": "C",
+      "isReverse": false
+    },
+    {
+      "number": 148,
+      "text": "我让他人做主",
+      "factorId": "E",
+      "isReverse": true
+    },
+    {
+      "number": 149,
+      "text": "我行事谨慎小心",
+      "factorId": "F",
+      "isReverse": true
+    },
+    {
+      "number": 150,
+      "text": "我按照自己的价值观行事",
+      "factorId": "G",
+      "isReverse": false
+    },
+    {
+      "number": 151,
+      "text": "我不怕成为关注的焦点",
+      "factorId": "H",
+      "isReverse": false
+    },
+    {
+      "number": 152,
+      "text": "我做决策时注重逻辑",
+      "factorId": "I",
+      "isReverse": true
+    },
+    {
+      "number": 153,
+      "text": "我认为他人值得信赖",
+      "factorId": "L",
+      "isReverse": true
+    },
+    {
+      "number": 154,
+      "text": "我关注眼前的事务",
+      "factorId": "M",
+      "isReverse": true
+    },
+    {
+      "number": 155,
+      "text": "我诚实表达自己",
+      "factorId": "N",
+      "isReverse": true
+    },
+    {
+      "number": 156,
+      "text": "我对自己的成就感到自豪",
+      "factorId": "O",
+      "isReverse": true
+    },
+    {
+      "number": 157,
+      "text": "我尊重既定的做法",
+      "factorId": "Q1",
+      "isReverse": true
+    },
+    {
+      "number": 158,
+      "text": "我重视团队的意见",
+      "factorId": "Q2",
+      "isReverse": true
+    },
+    {
+      "number": 159,
+      "text": "我对完成的质量要求不严",
+      "factorId": "Q3",
+      "isReverse": true
+    },
+    {
+      "number": 160,
+      "text": "我通常很放松",
+      "factorId": "Q4",
+      "isReverse": true
+    },
+    {
+      "number": 161,
+      "text": "我享受与人相处的时光",
+      "factorId": "A",
+      "isReverse": false
+    },
+    {
+      "number": 162,
+      "text": "我能理解复杂的关系",
+      "factorId": "B",
+      "isReverse": false
+    },
+    {
+      "number": 163,
+      "text": "我在困难时期保持坚强",
+      "factorId": "C",
+      "isReverse": false
+    }
+  ]
+}

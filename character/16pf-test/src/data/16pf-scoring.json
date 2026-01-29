@@ -1,0 +1,132 @@
+{
+  "factors": {
+    "A": {
+      "factorId": "A",
+      "factorName": "乐群性",
+      "factorNameEn": "Warmth",
+      "lowLabel": "冷漠内向",
+      "highLabel": "热情外向",
+      "color": "#FF6B6B"
+    },
+    "B": {
+      "factorId": "B",
+      "factorName": "推理能力",
+      "factorNameEn": "Reasoning",
+      "lowLabel": "具体思维",
+      "highLabel": "抽象思维",
+      "color": "#4ECDC4"
+    },
+    "C": {
+      "factorId": "C",
+      "factorName": "情绪稳定性",
+      "factorNameEn": "Emotional Stability",
+      "lowLabel": "情绪不稳",
+      "highLabel": "情绪稳定",
+      "color": "#45B7D1"
+    },
+    "E": {
+      "factorId": "E",
+      "factorName": "支配性",
+      "factorNameEn": "Dominance",
+      "lowLabel": "顺从谦让",
+      "highLabel": "支配独立",
+      "color": "#FFA07A"
+    },
+    "F": {
+      "factorId": "F",
+      "factorName": "兴奋性",
+      "factorNameEn": "Liveliness",
+      "lowLabel": "严肃审慎",
+      "highLabel": "活泼轻松",
+      "color": "#FFD93D"
+    },
+    "G": {
+      "factorId": "G",
+      "factorName": "有恒性",
+      "factorNameEn": "Rule-Consciousness",
+      "lowLabel": "权宜敷衍",
+      "highLabel": "恪守规范",
+      "color": "#6BCB77"
+    },
+    "H": {
+      "factorId": "H",
+      "factorName": "敢为性",
+      "factorNameEn": "Social Boldness",
+      "lowLabel": "畏怯退缩",
+      "highLabel": "冒险敢为",
+      "color": "#FF6B9D"
+    },
+    "I": {
+      "factorId": "I",
+      "factorName": "敏感性",
+      "factorNameEn": "Sensitivity",
+      "lowLabel": "理性坚韧",
+      "highLabel": "感性温柔",
+      "color": "#C77DFF"
+    },
+    "L": {
+      "factorId": "L",
+      "factorName": "怀疑性",
+      "factorNameEn": "Vigilance",
+      "lowLabel": "信任随和",
+      "highLabel": "怀疑多疑",
+      "color": "#F77F00"
+    },
+    "M": {
+      "factorId": "M",
+      "factorName": "幻想性",
+      "factorNameEn": "Abstractedness",
+      "lowLabel": "现实务实",
+      "highLabel": "想象抽象",
+      "color": "#06FFA5"
+    },
+    "N": {
+      "factorId": "N",
+      "factorName": "世故性",
+      "factorNameEn": "Privateness",
+      "lowLabel": "坦率直接",
+      "highLabel": "精明世故",
+      "color": "#7209B7"
+    },
+    "O": {
+      "factorId": "O",
+      "factorName": "忧虑性",
+      "factorNameEn": "Apprehension",
+      "lowLabel": "安详自信",
+      "highLabel": "忧虑担心",
+      "color": "#F72585"
+    },
+    "Q1": {
+      "factorId": "Q1",
+      "factorName": "变革性",
+      "factorNameEn": "Openness to Change",
+      "lowLabel": "保守传统",
+      "highLabel": "激进求新",
+      "color": "#4CC9F0"
+    },
+    "Q2": {
+      "factorId": "Q2",
+      "factorName": "独立性",
+      "factorNameEn": "Self-Reliance",
+      "lowLabel": "依赖附和",
+      "highLabel": "独立自主",
+      "color": "#F15BB5"
+    },
+    "Q3": {
+      "factorId": "Q3",
+      "factorName": "自律性",
+      "factorNameEn": "Perfectionism",
+      "lowLabel": "随意马虎",
+      "highLabel": "自律严谨",
+      "color": "#00BBF9"
+    },
+    "Q4": {
+      "factorId": "Q4",
+      "factorName": "紧张性",
+      "factorNameEn": "Tension",
+      "lowLabel": "心平气和",
+      "highLabel": "紧张焦虑",
+      "color": "#FB5607"
+    }
+  }
+}
