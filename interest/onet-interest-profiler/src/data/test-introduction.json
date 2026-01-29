@@ -1,0 +1,228 @@
+{
+  "welcome": {
+    "title": "O*NET 职业兴趣测评",
+    "subtitle": "发现最适合您的职业方向",
+    "tagline": "基于美国劳工部O*NET数据库，连接您的兴趣与900+职业"
+  },
+  "overview": {
+    "title": "关于O*NET兴趣测评工具",
+    "description": "O*NET兴趣测评工具(O*NET Interest Profiler)是由美国劳工部就业与培训管理局开发的职业探索工具，基于Holland的RIASEC职业兴趣理论。该工具通过评估您在六大兴趣领域的倾向，帮助您从O*NET数据库中的900多个职业中找到最匹配的职业方向。",
+    "features": [
+      "美国劳工部官方开发，全球广泛应用于职业指导",
+      "基于Holland RIASEC理论，科学可靠",
+      "连接到O*NET职业数据库，涵盖900+标准职业分类",
+      "提供详细的职业信息、任务描述和所需技能"
+    ]
+  },
+  "onetModel": {
+    "title": "什么是O*NET？",
+    "description": "O*NET（Occupational Information Network）是美国劳工部开发的职业信息数据库，包含了详细的职业描述、任务、知识、技能、能力和工作活动等信息。O*NET兴趣测评通过评估您的Holland兴趣代码，将您与数据库中的职业进行匹配。",
+    "database": {
+      "occupations": "900+",
+      "description": "标准职业分类（SOC）",
+      "updateFrequency": "定期更新以反映劳动力市场变化",
+      "coverage": "涵盖几乎所有主要职业领域"
+    }
+  },
+  "riasecModel": {
+    "title": "六大兴趣类型 (RIASEC)",
+    "description": "O*NET兴趣测评基于Holland的RIASEC模型，将职业兴趣分为六种类型。测评将帮助您识别您的主导兴趣类型，并推荐相匹配的职业。",
+    "types": [
+      {
+        "id": "R",
+        "name": "现实型 Realistic",
+        "icon": "🔧",
+        "brief": "喜欢使用工具、机器设备或动物工作，偏好实际操作。",
+        "example": "建筑工人、机械师、电工、木匠"
+      },
+      {
+        "id": "I",
+        "name": "研究型 Investigative",
+        "icon": "🔬",
+        "brief": "喜欢观察、学习、调查和解决问题，偏好科学研究。",
+        "example": "科学家、医生、程序员、研究员"
+      },
+      {
+        "id": "A",
+        "name": "艺术型 Artistic",
+        "icon": "🎨",
+        "brief": "喜欢创造性工作和自我表达，偏好艺术和美学活动。",
+        "example": "音乐家、作家、设计师、演员"
+      },
+      {
+        "id": "S",
+        "name": "社会型 Social",
+        "icon": "🤝",
+        "brief": "喜欢帮助、教导和服务他人，偏好人际互动。",
+        "example": "教师、护士、咨询师、社会工作者"
+      },
+      {
+        "id": "E",
+        "name": "企业型 Enterprising",
+        "icon": "💼",
+        "brief": "喜欢领导、影响和说服他人，偏好商业活动。",
+        "example": "企业家、销售经理、律师、政治家"
+      },
+      {
+        "id": "C",
+        "name": "常规型 Conventional",
+        "icon": "📊",
+        "brief": "喜欢按规则和程序工作，偏好数据处理和办公室工作。",
+        "example": "会计师、行政助理、银行职员、审计员"
+      }
+    ]
+  },
+  "howToTake": {
+    "title": "如何作答",
+    "instructions": [
+      {
+        "step": 1,
+        "title": "阅读活动描述",
+        "description": "每道题描述一项具体的工作活动，请仔细阅读并想象自己从事该活动。",
+        "tip": "关注活动本身是否吸引您，而非收入或社会地位。"
+      },
+      {
+        "step": 2,
+        "title": "评估喜好程度",
+        "description": "根据您对该活动的喜好程度，从5个等级中选择最符合的一项。",
+        "tip": "考虑的是您是否喜欢做这件事，而非您是否擅长。"
+      },
+      {
+        "step": 3,
+        "title": "真实作答",
+        "description": "请根据您的真实感受作答，没有对错之分。",
+        "tip": "测评结果的准确性取决于您的真实回答。"
+      }
+    ],
+    "likertScale": {
+      "title": "喜好等级量表",
+      "description": "请根据以下5个等级评估您对每项活动的喜好程度：",
+      "options": [
+        { "value": 1, "label": "非常不喜欢", "when": "您完全不想做这类工作" },
+        { "value": 2, "label": "不太喜欢", "when": "您不太愿意做这类工作" },
+        { "value": 3, "label": "一般", "when": "您对这类工作没有特别的喜好或厌恶" },
+        { "value": 4, "label": "比较喜欢", "when": "您愿意做这类工作" },
+        { "value": 5, "label": "非常喜欢", "when": "您非常想做这类工作" }
+      ]
+    }
+  },
+  "whatToExpect": {
+    "title": "您将获得",
+    "sections": [
+      {
+        "icon": "🏷️",
+        "title": "Holland兴趣代码",
+        "description": "您独特的三字母代码（如RIA、ASE），代表您最突出的兴趣类型组合。"
+      },
+      {
+        "icon": "📊",
+        "title": "兴趣类型得分",
+        "description": "您在六种兴趣类型（RIASEC）上的详细得分和可视化雷达图。"
+      },
+      {
+        "icon": "💼",
+        "title": "职业匹配推荐",
+        "description": "基于O*NET数据库，为您推荐与您兴趣代码匹配的职业方向。"
+      },
+      {
+        "icon": "📋",
+        "title": "类型详细解读",
+        "description": "每种兴趣类型的深入分析，包括特征、适合的工作环境和发展建议。"
+      }
+    ],
+    "timeEstimate": {
+      "description": "预计完成时间",
+      "min": 10,
+      "max": 15
+    }
+  },
+  "onetConnection": {
+    "title": "连接到O*NET职业数据库",
+    "description": "完成测评后，您的Holland代码将与O*NET数据库中的职业进行匹配。每个职业都有详细的信息，包括：",
+    "features": [
+      "工作任务和活动描述",
+      "所需的知识、技能和能力",
+      "教育和培训要求",
+      "就业前景和薪资水平",
+      "相关职业和职业发展路径"
+    ],
+    "note": "O*NET数据库定期更新，确保职业信息反映当前劳动力市场的实际情况。"
+  },
+  "privacy": {
+    "title": "隐私保护",
+    "assurances": [
+      "所有数据仅保存在您的浏览器本地",
+      "不会上传到任何服务器",
+      "关闭浏览器后可选择清除数据",
+      "完全匿名，无需注册账号"
+    ],
+    "note": "我们尊重并保护您的隐私，测评数据完全由您掌控。"
+  },
+  "disclaimer": {
+    "title": "使用须知",
+    "points": [
+      {
+        "type": "info",
+        "content": "本测试基于美国劳工部O*NET兴趣测评工具改编，仅供个人职业探索和自我了解使用。"
+      },
+      {
+        "type": "info",
+        "content": "测评结果反映的是您的兴趣倾向，而非能力或技能水平。兴趣和能力都很重要，建议结合两者进行职业规划。"
+      },
+      {
+        "type": "warning",
+        "content": "本测评不能替代专业的职业生涯咨询。如需做出重大职业决策，建议咨询专业的职业规划师。"
+      },
+      {
+        "type": "info",
+        "content": "职业兴趣可能随时间、经历和个人发展而变化，建议定期重新评估。"
+      }
+    ]
+  },
+  "readyToStart": {
+    "title": "准备开始",
+    "checklist": [
+      "找一个安静、不被打扰的环境",
+      "准备好10-15分钟的时间",
+      "保持放松和开放的心态",
+      "想想什么样的工作活动真正让您感兴趣"
+    ],
+    "encouragement": "每种兴趣类型都有其独特的价值和适合的职业。重要的是找到与您的兴趣相匹配的职业方向，这样您才能在工作中获得满足感和成就感！",
+    "buttonText": "开始测评 (60题)"
+  },
+  "scientificBasis": {
+    "title": "科学依据",
+    "development": "O*NET兴趣测评工具由美国劳工部就业与培训管理局（ETA）资助开发，基于John Holland的职业兴趣理论（RIASEC模型）。该测评工具已在大规模人群中进行验证，具有良好的信度和效度。",
+    "validation": "O*NET兴趣测评工具已被广泛应用于学校职业指导、就业服务、职业咨询等领域。研究表明，兴趣与职业的匹配度与工作满意度、职业稳定性和职业成功显著相关。",
+    "applications": [
+      "高中和大学职业规划教育",
+      "公共就业服务和职业指导",
+      "职业转型和再就业咨询",
+      "人力资源选拔和岗位匹配",
+      "个人职业发展和自我探索"
+    ],
+    "references": [
+      "Holland, J. L. (1997). Making vocational choices: A theory of vocational personalities and work environments (3rd ed.). Psychological Assessment Resources.",
+      "National Center for O*NET Development. O*NET Interest Profiler User's Guide. U.S. Department of Labor.",
+      "Rounds, J., & Su, R. (2014). The nature and power of interests. Current Directions in Psychological Science, 23(2), 98-103.",
+      "Armstrong, P. I., et al. (2008). The structure of vocational interests in the United States: Differences across racial and ethnic categories. Journal of Counseling Psychology, 55(1), 1-13."
+    ],
+    "source": {
+      "name": "O*NET Resource Center (美国劳工部O*NET资源中心)",
+      "url": "https://www.onetcenter.org/IP.html",
+      "description": "O*NET兴趣测评工具官方网站，提供完整的测评工具、职业数据库和使用指南。"
+    }
+  },
+  "aboutONET": {
+    "title": "关于O*NET",
+    "description": "O*NET（Occupational Information Network，职业信息网络）是美国劳工部开发和维护的国家级职业信息系统。它为用户提供了关于数百种职业的详细、可靠和有效的信息。",
+    "keyFeatures": [
+      "涵盖美国经济中的900多种职业",
+      "提供标准化的职业描述和分类",
+      "包含职业所需的知识、技能、能力和工作活动",
+      "定期更新以反映劳动力市场的变化",
+      "免费向公众开放使用"
+    ],
+    "usage": "O*NET数据库被广泛用于职业指导、教育规划、人力资源管理、劳动力市场分析等领域。全球许多国家的职业信息系统都参考了O*NET的框架和方法。"
+  }
+}
