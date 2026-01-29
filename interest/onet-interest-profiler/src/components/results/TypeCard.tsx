@@ -14,15 +14,14 @@ const TypeCard: React.FC<TypeCardProps> = ({ typeScore }) => {
   const tConfig = scoringConfig.types[typeScore.typeId as keyof typeof scoringConfig.types] as any;
 
   const scoreLevel = typeScore.level;
-  let scoreData;
 
-  if (scoreLevel === 'very_high' || scoreLevel === 'high') {
-    scoreData = tData.highScore;
-  } else if (scoreLevel === 'average') {
-    scoreData = tData.averageScore;
-  } else {
-    scoreData = tData.lowScore;
-  }
+  // Map score level to display range
+  const getScoreRange = () => {
+    if (scoreLevel === 'very_high') return '32-40';
+    if (scoreLevel === 'high') return '24-31';
+    if (scoreLevel === 'average') return '16-23';
+    return '0-15';
+  };
 
   const getBgColor = () => {
     if (scoreLevel === 'very_high') return 'from-purple-50 to-indigo-50 border-purple-200';
@@ -63,15 +62,15 @@ const TypeCard: React.FC<TypeCardProps> = ({ typeScore }) => {
                   title={tData.name}
                   content={
                     <div className="space-y-4">
-                      <p className="text-gray-700">{tData.fullDescription}</p>
+                      <p className="text-gray-700">{tData.overview}</p>
                       <div className="bg-blue-50 p-3 rounded-lg border border-blue-200">
-                        <p className="text-sm text-blue-800"><strong>简述：</strong>{tData.shortDescription}</p>
+                        <p className="text-sm text-blue-800"><strong>简述：</strong>{tData.tagline}</p>
                       </div>
                     </div>
                   }
                 />
               </div>
-              <p className="text-gray-600 text-sm mt-1">{tData.shortDescription}</p>
+              <p className="text-gray-600 text-sm mt-1">{tData.tagline}</p>
             </div>
           </div>
         </div>
@@ -109,7 +108,7 @@ const TypeCard: React.FC<TypeCardProps> = ({ typeScore }) => {
             <span className={`px-3 py-1 rounded-full text-sm font-semibold ${getLevelBadgeColor()}`}>
               {getLevelLabel(scoreLevel)}
             </span>
-            <span className="text-sm text-gray-600">({scoreData.range}分)</span>
+            <span className="text-sm text-gray-600">({getScoreRange()}分)</span>
           </div>
           <p className="text-gray-700">
             {getTypeInterpretation(typeScore.typeId, typeScore.level)}
@@ -135,110 +134,58 @@ const TypeCard: React.FC<TypeCardProps> = ({ typeScore }) => {
           </div>
         </div>
 
-        {/* Traits & Tips for high/very_high/low */}
-        {(scoreLevel === 'very_high' || scoreLevel === 'high') && 'traits' in scoreData && (
-          <>
-            <div>
-              <h3 className="font-bold text-gray-800 mb-2 flex items-center gap-2">
-                🎯 特征表现
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {(scoreData as any).traits?.map((trait: string, idx: number) => (
-                  <span key={idx} className="px-3 py-1 bg-white border-2 border-gray-800 rounded-full text-sm text-gray-700">
-                    {trait}
-                  </span>
-                ))}
-              </div>
+        {/* Traits - always show */}
+        {tData.characteristics?.traits && (
+          <div>
+            <h3 className="font-bold text-gray-800 mb-2 flex items-center gap-2">
+              🎯 特征表现
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {tData.characteristics.traits.slice(0, 6).map((trait: string, idx: number) => (
+                <span key={idx} className="px-3 py-1 bg-white border-2 border-gray-800 rounded-full text-sm text-gray-700">
+                  {trait}
+                </span>
+              ))}
             </div>
-
-            {(scoreData as any).strengths && (
-              <div>
-                <h3 className="font-bold text-gray-800 mb-2 flex items-center gap-2">
-                  ✨ 优势
-                </h3>
-                <div className="bg-white p-3 rounded-xl border-2 border-green-300">
-                  <ul className="space-y-1">
-                    {(scoreData as any).strengths.map((strength: string, idx: number) => (
-                      <li key={idx} className="text-gray-700 text-sm flex items-start gap-2">
-                        <span className="text-green-500 mt-0.5">✓</span>
-                        <span>{strength}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            )}
-
-            {(scoreData as any).challenges && (
-              <div>
-                <h3 className="font-bold text-gray-800 mb-2 flex items-center gap-2">
-                  ⚡ 注意事项
-                </h3>
-                <div className="bg-white p-3 rounded-xl border-2 border-orange-300">
-                  <ul className="space-y-1">
-                    {(scoreData as any).challenges.map((challenge: string, idx: number) => (
-                      <li key={idx} className="text-gray-700 text-sm flex items-start gap-2">
-                        <span className="text-orange-500 mt-0.5">!</span>
-                        <span>{challenge}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            )}
-
-            {(scoreData as any).developmentTips && (
-              <div>
-                <h3 className="font-bold text-gray-800 mb-2 flex items-center gap-2">
-                  📈 发展建议
-                </h3>
-                <div className="bg-white p-3 rounded-xl border-2 border-purple-300">
-                  <ul className="space-y-2">
-                    {(scoreData as any).developmentTips.map((tip: string, idx: number) => (
-                      <li key={idx} className="text-gray-700 text-sm flex items-start gap-2">
-                        <span className="text-purple-500 mt-0.5">→</span>
-                        <span>{tip}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            )}
-          </>
+          </div>
         )}
 
-        {scoreLevel === 'low' && 'traits' in scoreData && (
-          <>
-            <div>
-              <h3 className="font-bold text-gray-800 mb-2 flex items-center gap-2">
-                🎯 特征表现
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {(scoreData as any).traits?.map((trait: string, idx: number) => (
-                  <span key={idx} className="px-3 py-1 bg-white border-2 border-gray-800 rounded-full text-sm text-gray-700">
-                    {trait}
-                  </span>
+        {/* Strengths - show for high interest levels */}
+        {(scoreLevel === 'very_high' || scoreLevel === 'high') && tData.strengths?.list && (
+          <div>
+            <h3 className="font-bold text-gray-800 mb-2 flex items-center gap-2">
+              ✨ 优势能力
+            </h3>
+            <div className="bg-white p-3 rounded-xl border-2 border-green-300">
+              <ul className="space-y-1">
+                {tData.strengths.list.map((strength: string, idx: number) => (
+                  <li key={idx} className="text-gray-700 text-sm flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>{strength}</span>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
-            {(scoreData as any).developmentTips && (
-              <div>
-                <h3 className="font-bold text-gray-800 mb-2 flex items-center gap-2">
-                  📈 发展建议
-                </h3>
-                <div className="bg-white p-3 rounded-xl border-2 border-purple-300">
-                  <ul className="space-y-2">
-                    {(scoreData as any).developmentTips.map((tip: string, idx: number) => (
-                      <li key={idx} className="text-gray-700 text-sm flex items-start gap-2">
-                        <span className="text-purple-500 mt-0.5">→</span>
-                        <span>{tip}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            )}
-          </>
+          </div>
+        )}
+
+        {/* Development suggestions */}
+        {tData.development?.suggestions && (
+          <div>
+            <h3 className="font-bold text-gray-800 mb-2 flex items-center gap-2">
+              📈 发展建议
+            </h3>
+            <div className="bg-white p-3 rounded-xl border-2 border-purple-300">
+              <ul className="space-y-2">
+                {tData.development.suggestions.slice(0, 4).map((tip: string, idx: number) => (
+                  <li key={idx} className="text-gray-700 text-sm flex items-start gap-2">
+                    <span className="text-purple-500 mt-0.5">→</span>
+                    <span>{tip}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         )}
       </div>
     </div>
